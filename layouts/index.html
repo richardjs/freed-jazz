@@ -1,0 +1,27 @@
+{{ define "main" }}
+<h1 class="display-1 site-title">{{ .Site.Title }}</h1>
+
+{{ range sort .Site.RegularPages ".Params.year" "desc" }}
+{{ if (or (.Params.ia_link) (.Params.imslp_link)) }}
+    <div class="song-card">
+        <h4>{{ .Title }}</h4>
+
+        <table class="song-table">
+            <tr>
+                <td>Composer</td>
+                <td>{{ .Params.composer }}</td>
+            </tr>
+            <tr>
+                <td>Lyricist</td>
+                <td>{{ .Params.lyricist }}</td>
+            </tr>
+            <tr>
+                <td>Published</td>
+                <td>{{ .Params.year }}</td>
+            </tr>
+        </table>
+    </div>
+{{ end }}
+{{ end }}
+
+{{ end }}
