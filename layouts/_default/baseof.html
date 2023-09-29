@@ -16,6 +16,9 @@
                 Do not treat them as correct!</h3>
             </div>
         {{ end }}
+        <header class="site-header">
+            <h1 class="display-1 site-title">{{ .Site.Title }}</h1>
+        </header>
         <div class="container">
             {{ block "main" . }}{{ end }}
         </div>
