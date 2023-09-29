@@ -7,8 +7,6 @@ body {
 }
 
 .container {
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
     height: 100%;
     max-width: 800px;
     padding-left: 30px;
