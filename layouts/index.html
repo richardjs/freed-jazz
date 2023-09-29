@@ -1,7 +1,5 @@
 {{ define "main" }}
-<h1 class="display-1 site-title">{{ .Site.Title }}</h1>
-
-{{ range sort .Site.RegularPages ".Params.year" "desc" }}
+{{ range sort .Site.RegularPages ".Params.title" }}
 {{ if (or (.Params.ia_link) (.Params.imslp_link)) }}
     <div class="song-card">
         <h4>{{ .Title }}</h4>
