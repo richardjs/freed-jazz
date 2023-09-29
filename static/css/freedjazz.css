@@ -15,9 +15,17 @@ body {
     padding-right: 30px;
 }
 
+.site-header {
+    background: #333;
+    padding: 0px;
+}
+
 .site-title {
+    color: #ddd;
     font-variant-caps: small-caps;
+    padding-bottom: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .song-card {
