@@ -14,6 +14,8 @@ html, body {
 	width: 100%;
 }
 
-.no-pd-proof td {
-	color: #aaa;
+.song-index-link {
+	color: #115;
+	font-weight: bold;
+	text-decoration: none;
 }
