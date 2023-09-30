@@ -1,38 +1,19 @@
 html, body {
-    height: 100%;
-}
-
-body {
-    font-family: times;
-}
-
-.container {
-    height: 100%;
-    max-width: 800px;
-    padding-left: 30px;
-    padding-right: 30px;
+	height: 100%;
 }
 
 .site-header {
-    background: #333;
-    padding: 0px;
+	background: #333;
 }
 
 .site-title {
-    color: #ddd;
-    font-variant-caps: small-caps;
-    padding-bottom: 20px;
-    text-align: center;
-    width: 100%;
+	color: #ddd;
+	font-family: times;
+	font-variant-caps: small-caps;
+	text-align: center;
+	width: 100%;
 }
 
-.song-card {
-    border: 1px solid black;
-    margin: 15px 0px;
-    padding: 15px;
-}
-
-.song-table td:first-child {
-    font-weight: bold;
-    padding-right: 10px;
+.no-pd-proof td {
+	color: #aaa;
 }

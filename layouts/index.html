@@ -1,25 +1,24 @@
 {{ define "main" }}
-{{ range sort .Site.RegularPages ".Params.title" }}
-{{ if (or (.Params.ia_link) (.Params.imslp_link)) }}
-    <div class="song-card">
-        <h4>{{ .Title }}</h4>
 
-        <table class="song-table">
-            <tr>
-                <td>Composer</td>
-                <td>{{ .Params.composer }}</td>
-            </tr>
-            <tr>
-                <td>Lyricist</td>
-                <td>{{ .Params.lyricist }}</td>
-            </tr>
-            <tr>
-                <td>Published</td>
-                <td>{{ .Params.year }}</td>
-            </tr>
-        </table>
-    </div>
-{{ end }}
-{{ end }}
+<table class="table">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Title</th>
+			<th scope="col">Composer</th>
+			<th scope="col">Lyricist</th>
+			<th scope="col">Year</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{ range sort .Site.RegularPages ".Params.title" }}
+				<tr class="{{ if (or (.Params.ia_link) (.Params.imslp_link)) }}no-pd-proof{{end}}">
+					<td>{{ .Title }}</td>
+					<td>{{ .Params.composer }}</td>
+					<td>{{ .Params.lyricist }}</td>
+					<td>{{ .Params.year }}</td>
+				<tr>
+		{{ end }}
+	</tbody>
+</table>
 
 {{ end }}
