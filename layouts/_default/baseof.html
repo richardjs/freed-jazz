@@ -1,26 +1,30 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ .Site.Title }}{{ if not .IsHome }} - {{ .Page.Title }}{{ end }}</title>
+		<title>{{ .Site.Title }}{{ if not .IsHome }} - {{ .Page.Title }}{{ end }}</title>
 
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/freedjazz.css">
-    </head>
-    <body>
-        {{ if hugo.IsProduction }}
-            <div style="width: 100%; background: red; text-align: center; padding: 10px;">
-                <h3>Warning: copyright and public domain claims under evaluation.
-                Do not treat them as correct!</h3>
-            </div>
-        {{ end }}
-        <header class="site-header">
-            <h1 class="display-1 site-title">{{ .Site.Title }}</h1>
-        </header>
-        <div class="container">
-            {{ block "main" . }}{{ end }}
-        </div>
-    </body>
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/freedjazz.css">
+	</head>
+	<body>
+		{{ if hugo.IsProduction }}
+			<div style="width: 100%; background: red; text-align: center; padding: 10px;">
+				<h3>Warning: copyright and public domain claims under evaluation.
+				Do not treat them as correct!</h3>
+			</div>
+		{{ end }}
+
+
+		<div class="container">
+			<nav class="navbar navbar-expand bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="{{ .Site.BaseURL }}">Freed Jazz</a>
+				</div>
+			</nav>
+			{{ block "main" . }}{{ end }}
+		</div>
+	</body>
 </html>
