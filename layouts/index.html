@@ -15,7 +15,7 @@
 	</thead>
 	<tbody>
 		{{ range sort .Site.RegularPages ".Params.title" }}
-			{{ if (or (.Params.ia_link) (.Params.imslp_link)) }}
+			{{ if (or (.Params.ia_link) (.Params.imslp_link) (.Params.umaine_link)) }}
 				<tr>
 					<td><a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a></td>
 					<td>{{ .Params.composer }}</td>
@@ -38,7 +38,7 @@
 	</thead>
 	<tbody>
 		{{ range sort .Site.RegularPages ".Params.title" }}
-			{{ if (not (or (.Params.ia_link) (.Params.imslp_link))) }}
+			{{ if (not (or (.Params.ia_link) (.Params.imslp_link) (.Params.umaine_link))) }}
 				<tr>
 					<td>{{ .Title }}</td>
 					<td>{{ .Params.composer }}</td>
