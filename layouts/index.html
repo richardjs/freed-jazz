@@ -15,32 +15,9 @@
 	</thead>
 	<tbody>
 		{{ range sort .Site.RegularPages ".Params.title" }}
-			{{ if (or (.Params.ia_link) (.Params.imslp_link) (.Params.umaine_link)) }}
+			{{ if (or (.Params.sources)) }}
 				<tr>
 					<td><a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-					<td>{{ .Params.composer }}</td>
-					<td>{{ .Params.lyricist }}</td>
-					<td>{{ .Params.year }}</td>
-				<tr>
-			{{end}}
-		{{ end }}
-	</tbody>
-</table>
-
-<table class="table">
-	<thead class="table-secondary">
-		<tr>
-			<th scope="col">Title</th>
-			<th scope="col">Composer</th>
-			<th scope="col">Lyricist</th>
-			<th scope="col">Year</th>
-		</tr>
-	</thead>
-	<tbody>
-		{{ range sort .Site.RegularPages ".Params.title" }}
-			{{ if (not (or (.Params.ia_link) (.Params.imslp_link) (.Params.umaine_link))) }}
-				<tr>
-					<td>{{ .Title }}</td>
 					<td>{{ .Params.composer }}</td>
 					<td>{{ .Params.lyricist }}</td>
 					<td>{{ .Params.year }}</td>

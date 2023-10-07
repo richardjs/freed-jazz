@@ -1,20 +1,21 @@
 {{ define "main" }}
 
-<h2>{{ .Title}}</h2>
+<h1>{{ .Title}}</h1>
 
-<table>
-    <tr>
-        <td>Composer</td>
-        <td>{{ .Params.Composer }}</td>
-    </tr>
-    <tr>
-        <td>Lyricist</td>
-        <td>{{ .Params.Lyricist }}</td>
-    </tr>
-    <tr>
-        <td>Published</td>
-        <td>{{ .Params.publish_year }}</td>
-    </tr>
-</table>
+<p class="lead">
+	{{ if (eq .Params.Composer .Params.Lyricist) }}
+		Music and lyrics by {{ .Params.Composer}}
+	{{ else }}
+		Music by {{ .Params.Composer}}
+		{{ if .Params.Lyricist }}| Lyrics by {{ .Params.Lyricist }}{{ end }}
+	{{ end }} |
+	Published in {{ .Params.year }}
+</p>
+
+<ul>
+  {{ range .Params.sources }}
+    <li><a href="{{ . }}">{{ . }}</a></li>
+  {{ end  }}
+</ul>
 
 {{ end }}
