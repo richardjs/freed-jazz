@@ -3,13 +3,13 @@
 <h1>{{ .Title}}</h1>
 
 <p class="lead">
-	{{ if (eq .Params.Composer .Params.Lyricist) }}
-		Music and lyrics by {{ .Params.Composer}}
+	{{ if (eq .Params.composers .Params.lyricists) }}
+		Music and lyrics by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
 	{{ else }}
-		Music by {{ .Params.Composer}}
-		{{ if .Params.Lyricist }}| Lyrics by {{ .Params.Lyricist }}{{ end }}
+        Music by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
+		{{ if .Params.lyricists }}| Lyrics by <strong>{{ delimit .Params.lyricists ", " " & " }}</strong>{{ end }}
 	{{ end }} |
-	Published in {{ .Params.year }}
+	Published in <strong>{{ .Params.year }}</strong>
 </p>
 
 <ul>
