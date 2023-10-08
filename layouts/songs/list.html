@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<h2>{{ .Title }}</h2>
+
+{{ $songPages := where .Site.Pages ".Section" "songs" }}
+
+<p>
+  There are currently <strong>{{ len $songPages }} songs</strong> in the
+  collection.
+</p>
+
+{{ partial "song-table.html" $songPages }} {{ end }}

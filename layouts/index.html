@@ -1,6 +1,6 @@
 {{ define "main" }} {{ $songPages := where .Site.Pages ".Section" "songs" }}
 
-<h1>Jazz Standards in the Public Domain</h1>
+<h1>Jazz Standards in the U.S. Public Domain</h1>
 
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -11,11 +11,13 @@
   in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 
-<p>
+<p class="lead">
   There are currently <strong>{{ len $songPages }} songs</strong> in the
   collection.
 </p>
 
-<h2>Songs</h2>
+<h3><a href="songs/">Browse songs by title</a></h3>
+<h3><a href="composers/">Browse songs by composer</a></h3>
+<h3><a href="lyricists/">Browse songs by lyricist</a></h3>
 
-{{ partial "song-table.html" $songPages }} {{ end }}
+{{ end }}
