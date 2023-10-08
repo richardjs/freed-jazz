@@ -4,9 +4,9 @@
 
 {{ $songPages := where .Site.Pages ".Section" "songs" }}
 
-<p>
+<p class="lead">
   There are currently <strong>{{ len $songPages }} songs</strong> in the
-  collection.
+  collection:
 </p>
 
 {{ partial "song-table.html" $songPages }} {{ end }}
