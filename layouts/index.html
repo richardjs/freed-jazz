@@ -24,8 +24,8 @@
 			{{ if .Params.sources }}
 				<tr>
 					<td><a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-					<td>{{ if .Params.composers }}{{ delimit .Params.composers ", " " & " }}{{ end }}</td>
-					<td>{{ if .Params.lyricists }}{{ delimit .Params.lyricists ", " " & " }}{{ end }}</td>
+					<td>{{ if .Params.composers }}{{ delimit .Params.composers ", " " &amp; " }}{{ end }}</td>
+					<td>{{ if .Params.lyricists }}{{ delimit .Params.lyricists ", " " &amp; " }}{{ end }}</td>
 					<td>{{ .Params.year }}</td>
 				<tr>
 			{{end}}
