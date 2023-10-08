@@ -1,7 +1,7 @@
 ---
 title: "Poor Butterfly"
-composer: Raymond Hubbell
-lyricist: John L. Golden
+composers: [Raymond Hubbell]
+lyricists: [John L. Golden]
 year: 1916
 
 sources:

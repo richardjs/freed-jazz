@@ -1,7 +1,7 @@
 ---
 title: "Tiger Rag"
-composer: The Original Dixieland Jazz Band
-lyricist:
+composers: [The Original Dixieland Jazz Band]
+lyricists:
 year: 1917
 
 sources:

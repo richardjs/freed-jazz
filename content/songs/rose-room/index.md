@@ -1,7 +1,7 @@
 ---
 title: "Rose Room"
-composer: Art Hickman
-lyricist: Harry Williams
+composers: [Art Hickman]
+lyricists: [Harry Williams]
 year: 1917
 # Different year for lyrics?
 

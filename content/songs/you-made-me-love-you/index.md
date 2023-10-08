@@ -1,7 +1,7 @@
 ---
 title: "You Made Me Love You"
-composer: Joe McCarthy
-lyricist: James V. Monaco
+composers: [Joe McCarthy]
+lyricists: [James V. Monaco]
 year: 1913
 
 sources:

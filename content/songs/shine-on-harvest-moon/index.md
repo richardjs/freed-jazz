@@ -1,7 +1,7 @@
 ---
 title: "Shine on Harvest Moon"
-composer: Nora Bayes
-lyricist: Jack Norworth
+composers: [Nora Bayes]
+lyricists: [Jack Norworth]
 year: 1908
 
 sources:

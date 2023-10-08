@@ -1,12 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-composer:
-lyricist:
+composers:
+lyricists:
 year:
 
-ia_link:
-imslp_link:
-umaine_link:
+sources:
+
 jazzstandards_link:
 wikipedia_link:
 ---

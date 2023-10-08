@@ -1,7 +1,7 @@
 ---
 title: "What'll I Do?"
-composer: Irving Berlin
-lyricist: Irving Berlin
+composers: [Irving Berlin]
+lyricists: [Irving Berlin]
 year: 1924
 
 sources:

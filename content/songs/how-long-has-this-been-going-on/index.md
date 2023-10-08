@@ -1,7 +1,7 @@
 ---
 title: "How Long Has This Been Going On?"
-composer: George Gershwin
-lyricist: Ira Gershwin
+composers: [George Gershwin]
+lyricists: [Ira Gershwin]
 year: 1927
 
 sources:

@@ -1,7 +1,13 @@
 ---
 title: "Sweet Georgia Brown"
-composer: Ben Bernie, Maceo Pinkard, Kenneth Casey
-lyricist: Ben Bernie, Maceo Pinkard, Kenneth Casey
+composers:
+  - Ben Bernie
+  - Maceo Pinkard
+  - Kenneth Casey
+lyricists:
+  - Ben Bernie
+  - Maceo Pinkard
+  - Kenneth Casey
 year: 1925
 
 sources:

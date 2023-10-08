@@ -15,11 +15,11 @@
 	</thead>
 	<tbody>
 		{{ range sort .Site.RegularPages ".Params.title" }}
-			{{ if (or (.Params.sources)) }}
+			{{ if .Params.sources }}
 				<tr>
 					<td><a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-					<td>{{ .Params.composer }}</td>
-					<td>{{ .Params.lyricist }}</td>
+					<td>{{ if .Params.composers }}{{ delimit .Params.composers ", " " & " }}{{ end }}</td>
+					<td>{{ if .Params.lyricists }}{{ delimit .Params.lyricists ", " " & " }}{{ end }}</td>
 					<td>{{ .Params.year }}</td>
 				<tr>
 			{{end}}

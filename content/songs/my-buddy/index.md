@@ -1,7 +1,7 @@
 ---
 title: "My Buddy"
-composer: Walter Donaldson
-lyricist: Gus Kahn
+composers: [Walter Donaldson]
+lyricists: [Gus Kahn]
 year: 1922
 
 sources:

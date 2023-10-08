@@ -1,7 +1,13 @@
 ---
 title: "Avalon"
-composer: Al Jolson, Buddy DeSylva, Vincent Rose
-lyricist: Al Jolson, Buddy DeSylva, Vincent Rose
+composers:
+  - Al Jolson
+  - Buddy DeSylva
+  - Vincent Rose
+lyricists:
+  - Al Jolson
+  - Buddy DeSylva
+  - Vincent Rose
 year: 1920
 
 sources:

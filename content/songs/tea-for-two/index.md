@@ -1,7 +1,7 @@
 ---
 title: "Tea for Two"
-composer: Vincent Youmans
-lyricist: Irving Caesar
+composers: [Vincent Youmans]
+lyricists: [Irving Caesar]
 year: 1924
 
 sources:

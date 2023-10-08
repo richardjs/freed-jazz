@@ -1,7 +1,7 @@
 ---
 title: "My Heart Stood Still"
-composer: Richard Rodgers
-lyricist: Lorenz Hart
+composers: [Richard Rodgers]
+lyricists: [Lorenz Hart]
 year: 1927
 
 sources:

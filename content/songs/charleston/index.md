@@ -1,7 +1,7 @@
 ---
 title: "Charleston"
-composer: Cecil Mack
-lyricist: Jimmy Johnson
+composers: [Cecil Mack]
+lyricists: [Jimmy Johnson]
 year: 1923
 
 sources:

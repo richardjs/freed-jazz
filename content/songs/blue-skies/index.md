@@ -1,7 +1,7 @@
 ---
 title: "Blue Skies"
-composer: Irving Berlin
-lyricist: Irving Berlin
+composers: [Irving Berlin]
+lyricists: [Irving Berlin]
 year: 1927
 
 sources:
