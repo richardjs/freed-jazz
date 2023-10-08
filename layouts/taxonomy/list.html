@@ -1,6 +1,13 @@
-{{ define "main" }}
+{{ define "main" }} {{ $plural := .Data.Plural }}
 
 <h1>{{ .Title }}</h1>
+
+{{ with .Data.Terms }}
+<p class="lead">
+  There are currently <strong>{{ . | len }} {{ $plural }}</strong> in the
+  collection:
+</p>
+{{ end }}
 
 <ul>
   {{ range $term, $pages := .Data.Terms }}
@@ -10,7 +17,7 @@
 
 {{ range $term, $pages := .Data.Terms }}
 
-<div class="">
+<div class="mb-5">
   <h2 id="{{ $term }}">{{ .Page.Title }}</h2>
   {{ partial "song-table.html" $pages }}
   <p><a href="#top">Back to top</a></p>
