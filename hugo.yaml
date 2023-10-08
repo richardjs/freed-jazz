@@ -1,0 +1,8 @@
+---
+baseURL: https://freedjazz.org
+languageCode: en-us
+title: Freed Jazz
+
+taxonomies:
+  composer: composers
+  lyricist: lyricists

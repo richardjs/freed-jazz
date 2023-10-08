@@ -18,33 +18,4 @@
 
 <h2>Songs</h2>
 
-<table class="table">
-  <thead class="table-dark">
-    <tr>
-      <th scope="col">Title</th>
-      <th scope="col">Composer</th>
-      <th scope="col">Lyricist</th>
-      <th scope="col">Year</th>
-    </tr>
-  </thead>
-  <tbody>
-    {{ range sort $songPages ".Params.title" }} {{ if .Params.sources }}
-    <tr>
-      <td>
-        <a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </td>
-      <td>
-        {{ if .Params.composers }}{{ delimit .Params.composers ", " " &amp; "
-        }}{{ end }}
-      </td>
-      <td>
-        {{ if .Params.lyricists }}{{ delimit .Params.lyricists ", " " &amp; "
-        }}{{ end }}
-      </td>
-      <td>{{ .Params.year }}</td>
-    </tr>
-    {{ end }} {{ end }}
-  </tbody>
-</table>
-
-{{ end }}
+{{ partial "song-table.html" $songPages }} {{ end }}

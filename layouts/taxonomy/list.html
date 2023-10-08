@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<ul>
+  {{ range $term, $pages := .Data.Terms }}
+  <li><a href="#{{ $term }}">{{ .Page.Title }}</a> ({{ len $pages }})</li>
+  {{ end }}
+</ul>
+
+{{ range $term, $pages := .Data.Terms }}
+
+<div class="">
+  <h2 id="{{ $term }}">{{ .Page.Title }}</h2>
+  {{ partial "song-table.html" $pages }}
+  <p><a href="#top">Back to top</a></p>
+</div>
+
+{{ end }} {{ end }}
