@@ -1,7 +1,7 @@
 ---
-title: "After You're Gone"
-composer: Henry Creamer
-lyricist: Turner Layton
+title: "After You've Gone"
+composers: [Henry Creamer]
+lyricists: [Turner Layton]
 year: 1918
 
 sources:
