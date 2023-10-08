@@ -1,7 +1,7 @@
 ---
 title: "Someone to Watch Over Me"
-composers: [George Gerschwin]
-lyricists: [Ira Gerschwin]
+composers: [George Gershwin]
+lyricists: [Ira Gershwin]
 year: 1926
 
 sources:
