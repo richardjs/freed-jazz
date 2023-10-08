@@ -1,36 +1,49 @@
-{{ define "main" }}
-
-{{ $songPages := where .Site.Pages ".Section" "songs" }}
+{{ define "main" }} {{ $songPages := where .Site.Pages ".Section" "songs" }}
 
 <h1>Jazz Standards in the Public Domain</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+  eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+  in culpa qui officia deserunt mollit anim id est laborum.
+</p>
 
-<p>There are currently <strong>{{ len $songPages }} songs</strong> in the collection.</p>
+<p>
+  There are currently <strong>{{ len $songPages }} songs</strong> in the
+  collection.
+</p>
 
 <h2>Songs</h2>
 
 <table class="table">
-	<thead class="table-dark">
-		<tr>
-			<th scope="col">Title</th>
-			<th scope="col">Composer</th>
-			<th scope="col">Lyricist</th>
-			<th scope="col">Year</th>
-		</tr>
-	</thead>
-	<tbody>
-		{{ range sort $songPages ".Params.title" }}
-			{{ if .Params.sources }}
-				<tr>
-					<td><a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-					<td>{{ if .Params.composers }}{{ delimit .Params.composers ", " " &amp; " }}{{ end }}</td>
-					<td>{{ if .Params.lyricists }}{{ delimit .Params.lyricists ", " " &amp; " }}{{ end }}</td>
-					<td>{{ .Params.year }}</td>
-				<tr>
-			{{end}}
-		{{ end }}
-	</tbody>
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Composer</th>
+      <th scope="col">Lyricist</th>
+      <th scope="col">Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range sort $songPages ".Params.title" }} {{ if .Params.sources }}
+    <tr>
+      <td>
+        <a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </td>
+      <td>
+        {{ if .Params.composers }}{{ delimit .Params.composers ", " " &amp; "
+        }}{{ end }}
+      </td>
+      <td>
+        {{ if .Params.lyricists }}{{ delimit .Params.lyricists ", " " &amp; "
+        }}{{ end }}
+      </td>
+      <td>{{ .Params.year }}</td>
+    </tr>
+  </tbody>
 </table>
 
 {{ end }}

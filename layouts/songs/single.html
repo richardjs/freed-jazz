@@ -3,32 +3,40 @@
 <h1>{{ .Title}}</h1>
 
 <p class="lead">
-    {{ if (eq .Params.composers .Params.lyricists) }}
-        Music and lyrics by <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong>
-    {{ else }}
-        Music by <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong>
-        {{ if .Params.lyricists }}| Lyrics by <strong>{{ delimit .Params.lyricists ", " " &amp; " }}</strong>{{ end }}
-    {{ end }} |
-    Published in <strong>{{ .Params.year }}</strong>
+  {{ if (eq .Params.composers .Params.lyricists) }} Music and lyrics by
+  <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong> {{ else }}
+  Music by <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong> {{ if
+  .Params.lyricists }}| Lyrics by
+  <strong>{{ delimit .Params.lyricists ", " " &amp; " }}</strong>{{ end }} {{
+  end }} | Published in <strong>{{ .Params.year }}</strong>
 </p>
 
 <div class="row">
-    <div class="col">
-        <h2>Resources</h2>
-        {{ if .Params.jazzstandards_link }}<p><a href="{{ .Params.jazzstandards_link }}">{{ .Title }}</a> on JazzStandards.com</p>{{ end }}
-        {{ if .Params.wikipedia_link }}<p><a href="{{ .Params.wikipedia_link }}">{{ .Title }}</a> on Wikipedia</p>{{ end }}
+  <div class="col">
+    <h2>Resources</h2>
+    {{ if .Params.jazzstandards_link }}
+    <p>
+      <a href="{{ .Params.jazzstandards_link }}">{{ .Title }}</a> on
+      JazzStandards.com
+    </p>
+    {{ end }} {{ if .Params.wikipedia_link }}
+    <p><a href="{{ .Params.wikipedia_link }}">{{ .Title }}</a> on Wikipedia</p>
+    {{ end }}
 
-        <h2>Scans</h2>
-        <ul>
-            {{ range .Params.sources }}
-                <li><a href="{{ . }}">{{ . }}</a></li>
-            {{ end  }}
-        </ul>
-    </div>
+    <h2>Scans</h2>
+    <ul>
+      {{ range .Params.sources }}
+      <li><a href="{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
 
-    <div class="col">
-        <img style="width: 100%; border: 1px dashed #ccc;" src="{{ .File.ContentBaseName }}-1.png">
-    </div>
+  <div class="col">
+    <img
+      style="width: 100%; border: 1px dashed #ccc"
+      src="{{ .File.ContentBaseName }}-1.png"
+    />
+  </div>
 </div>
 
 {{ end }}
