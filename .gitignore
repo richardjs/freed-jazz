@@ -4,4 +4,5 @@ content/songs/*/*.svg
 content/songs/*/*.png
 
 scores/*/audiosettings.json
+scores/*/Thumbnails
 scores/*/viewsettings.json
