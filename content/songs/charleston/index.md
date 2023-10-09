@@ -3,9 +3,11 @@ title: "Charleston"
 
 composers:
   - Cecil Mack
+  - James P. Johnson
 
 lyricists:
-  - Jimmy Johnson
+  - Cecil Mack
+  - James P. Johnson
 
 year: 1923
 
