@@ -1,0 +1,7 @@
+content/songs/*/*.pdf
+content/songs/*/*.mscz
+content/songs/*/*.svg
+content/songs/*/*.png
+
+scores/*/audiosettings.json
+scores/*/viewsettings.json
