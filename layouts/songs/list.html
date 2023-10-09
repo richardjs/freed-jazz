@@ -2,7 +2,7 @@
 
 <h2>{{ .Title }}</h2>
 
-{{ $songPages := where .Site.Pages ".Section" "songs" }}
+{{ $songPages := where .Site.RegularPages ".Section" "songs" }}
 
 <p class="lead">
   There are currently <strong>{{ len $songPages }} songs</strong> in the
