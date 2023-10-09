@@ -1,13 +1,17 @@
 ---
 title: "Rose Room"
-composers: [Art Hickman]
-lyricists: [Harry Williams]
+
+composers:
+  - Art Hickman
+
+lyricists:
+  - Harry Williams
+
 year: 1917
 # Different year for lyrics?
 
-sources:
-  - https://imslp.org/wiki/Rose_Room_(Hickman%2C_Art)
+imslp: https://imslp.org/wiki/Rose_Room_(Hickman%2C_Art)
 
-jazzstandards_link: https://www.jazzstandards.com/compositions-1/roseroom.htm
-wikipedia_link: https://en.wikipedia.org/wiki/Rose_Room
+jazzstandards: https://www.jazzstandards.com/compositions-1/roseroom.htm
+wikipedia: https://en.wikipedia.org/wiki/Rose_Room
 ---

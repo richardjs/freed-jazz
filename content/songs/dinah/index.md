@@ -1,14 +1,18 @@
 ---
 title: "Dinah"
-composers: [Harry Akst]
+
+composers:
+  - Harry Akst
+
 lyricists:
   - Sam M. Lewis
   - Joseph Young
+
 year: 1925
 
-sources:
+scans:
   - https://scholarsjunction.msstate.edu/cht-sheet-music/2402/
 
-jazzstandards_link: https://www.jazzstandards.com/compositions-1/dinah.htm
-wikipedia_link: https://en.wikipedia.org/wiki/Dinah_(song)
+jazzstandards: https://www.jazzstandards.com/compositions-1/dinah.htm
+wikipedia: https://en.wikipedia.org/wiki/Dinah_(song)
 ---

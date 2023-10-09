@@ -1,12 +1,16 @@
 ---
 title: "What'll I Do?"
-composers: [Irving Berlin]
-lyricists: [Irving Berlin]
+
+composers:
+  - Irving Berlin
+
+lyricists:
+  - Irving Berlin
+
 year: 1924
 
-sources:
-  - https://imslp.org/wiki/What%27ll_I_Do%3F_(Berlin%2C_Irving)
+imslp: https://imslp.org/wiki/What%27ll_I_Do%3F_(Berlin%2C_Irving)
 
-jazzstandards_link: https://www.jazzstandards.com/compositions-7/whatllido.htm
-wikipedia_link: https://en.wikipedia.org/wiki/What'll_I_Do
+jazzstandards: https://www.jazzstandards.com/compositions-7/whatllido.htm
+wikipedia: https://en.wikipedia.org/wiki/What'll_I_Do
 ---

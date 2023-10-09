@@ -8,23 +8,27 @@
     </tr>
   </thead>
   <tbody>
-    {{ range sort . ".Params.title" }} {{ if .Params.sources }} {{ $scoreExists
-    := os.FileExists (path.Join "scores" .File.ContentBaseName) }}
-    <tr class="{{ if not $scoreExists }}table-secondary{{ end }}">
-      <td>
-        <a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{- if not $scoreExists }} <small>[needs score]</small>{{ end -}}
-      </td>
-      <td>
-        {{ if .Params.composers }}{{ delimit .Params.composers ", " " &amp; "
-        }}{{ end }}
-      </td>
-      <td>
-        {{ if .Params.lyricists }}{{ delimit .Params.lyricists ", " " &amp; "
-        }}{{ end }}
-      </td>
-      <td>{{ .Params.year }}</td>
-    </tr>
-    {{ end }} {{ end }}
+    {{ range sort . ".Params.title" }}
+      {{ $noIMSLP := not .Params.imslp }}
+      {{ $noScore := not (os.FileExists (path.Join "scores" .File.ContentBaseName)) }}
+      <tr class="{{ if or $noIMSLP $noScore }}fst-italic fw-light{{ end }}">
+        <td>
+          <a class="index-song-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{- if $noIMSLP }} <small class="fst-normal fw-medium">[no IMSLP]</small> {{ end -}}
+          {{- if $noScore }} <small class="fst-normal">[no score]</small> {{ end -}}
+        </td>
+        <td>
+          {{ if .Params.composers }}
+            {{- delimit .Params.composers ", " " &amp; " -}}
+          {{ end }}
+        </td>
+        <td>
+          {{ if .Params.lyricists }}
+            {{- delimit .Params.lyricists ", " " &amp; " -}}
+          {{ end }}
+        </td>
+        <td>{{ .Params.year }}</td>
+      </tr>
+    {{ end }}
   </tbody>
 </table>

@@ -3,32 +3,36 @@
 <h1>{{ .Title}}</h1>
 
 <p class="lead">
-  {{ if (eq .Params.composers .Params.lyricists) }} Music and lyrics by
-  <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong> {{ else }}
-  Music by <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong> {{ if
-  .Params.lyricists }}| Lyrics by
-  <strong>{{ delimit .Params.lyricists ", " " &amp; " }}</strong>{{ end }} {{
-  end }} | Published in <strong>{{ .Params.year }}</strong>
+  {{ if (eq .Params.composers .Params.lyricists) }}
+    Music and lyrics by <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong>
+  {{ else }}
+    Music by <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong>
+    {{ if .Params.lyricists }}
+      | Lyrics by <strong>{{ delimit .Params.lyricists ", " " &amp; " }}</strong>
+    {{ end }}
+  {{ end }}
+  | Published in <strong>{{ .Params.year }}</strong>
 </p>
 
 <div class="row">
   <div class="col">
     <h2>Resources</h2>
-    {{ if .Params.jazzstandards_link }}
-    <p>
-      <a href="{{ .Params.jazzstandards_link }}">{{ .Title }}</a> on
-      JazzStandards.com
-    </p>
-    {{ end }} {{ if .Params.wikipedia_link }}
-    <p><a href="{{ .Params.wikipedia_link }}">{{ .Title }}</a> on Wikipedia</p>
+    {{ if .Params.imslp }}
+      <p>
+        <a href="{{ .Params.imslp }}">{{ .Title }}</a>
+        on IMSLP
+      </p>
     {{ end }}
-
-    <h2>Scans</h2>
-    <ul>
-      {{ range .Params.sources }}
-      <li><a href="{{ . }}">{{ . }}</a></li>
-      {{ end }}
-    </ul>
+    {{ if .Params.jazzstandards }}
+      <p>
+        <a href="{{ .Params.jazzstandards }}">{{ .Title }}</a>
+        on JazzStandards.com
+      </p>
+    {{ end }}
+    {{ if .Params.wikipedia }}
+      <p><a href="{{ .Params.wikipedia }}">{{ .Title }}</a>
+      on Wikipedia</p>
+    {{ end }}
   </div>
 
   <div class="col">

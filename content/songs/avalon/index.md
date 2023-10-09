@@ -1,18 +1,20 @@
 ---
 title: "Avalon"
+
 composers:
   - Al Jolson
   - Buddy DeSylva
   - Vincent Rose
+
 lyricists:
   - Al Jolson
   - Buddy DeSylva
   - Vincent Rose
+
 year: 1920
 
-sources:
-  - https://imslp.org/wiki/Avalon_(Jolson%2C_Al)
+imslp: https://imslp.org/wiki/Avalon_(Jolson%2C_Al)
 
-jazzstandards_link: https://www.jazzstandards.com/compositions-1/avalon.htm
-wikipedia_link: https://en.wikipedia.org/wiki/Avalon_(Al_Jolson_song)
+jazzstandards: https://www.jazzstandards.com/compositions-1/avalon.htm
+wikipedia: https://en.wikipedia.org/wiki/Avalon_(Al_Jolson_song)
 ---

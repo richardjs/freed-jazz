@@ -1,12 +1,16 @@
 ---
 title: "How Long Has This Been Going On?"
-composers: [George Gershwin]
-lyricists: [Ira Gershwin]
+
+composers:
+  - George Gershwin
+
+lyricists:
+  - Ira Gershwin
+
 year: 1927
 
-sources:
-  - https://digitalcommons.library.umaine.edu/mmb-vp/6235/
+imslp: https://imslp.org/wiki/How_Long_Has_This_Been_Going_On%3F_(Gershwin,_George)
 
-jazzstandards_link: https://www.jazzstandards.com/compositions-2/howlonghasthisbeengoingon.htm
-wikipedia_link: https://en.wikipedia.org/wiki/How_Long_Has_This_Been_Going_On%3F
+jazzstandards: https://www.jazzstandards.com/compositions-2/howlonghasthisbeengoingon.htm
+wikipedia: https://en.wikipedia.org/wiki/How_Long_Has_This_Been_Going_On%3F
 ---

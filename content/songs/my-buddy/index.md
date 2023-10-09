@@ -1,13 +1,16 @@
 ---
 title: "My Buddy"
-composers: [Walter Donaldson]
-lyricists: [Gus Kahn]
+
+composers:
+  - Walter Donaldson
+
+lyricists:
+  - Gus Kahn
+
 year: 1922
 
-sources:
-  - https://archive.org/details/b10141169/
-  - https://imslp.org/wiki/My_Buddy_(Donaldson,_Walter)
+imslp: https://imslp.org/wiki/My_Buddy_(Donaldson,_Walter)
 
-jazzstandards_link: https://www.jazzstandards.com/compositions-4/mybuddy.htm
-wikipedia_link: https://en.wikipedia.org/wiki/My_Buddy_(song)
+jazzstandards: https://www.jazzstandards.com/compositions-4/mybuddy.htm
+wikipedia: https://en.wikipedia.org/wiki/My_Buddy_(song)
 ---

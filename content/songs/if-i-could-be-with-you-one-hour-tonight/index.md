@@ -1,12 +1,17 @@
 ---
 title: "If I Could Be With You (One Hour Tonight)"
-composers: [James P. Johnson]
-lyricists: [Henry Creamer]
+
+composers:
+  - James P. Johnson
+
+lyricists:
+  - Henry Creamer
+
 year: 1926
 
-sources:
+scans:
   - https://digitalcommons.conncoll.edu/sheetmusic/1829/
 
-jazzstandards_link: https://www.jazzstandards.com/compositions-1/ificouldbewithyou.htm
-wikipedia_link: https://en.wikipedia.org/wiki/If_I_Could_Be_with_You_(One_Hour_Tonight)
+jazzstandards: https://www.jazzstandards.com/compositions-1/ificouldbewithyou.htm
+wikipedia: https://en.wikipedia.org/wiki/If_I_Could_Be_with_You_(One_Hour_Tonight)
 ---
