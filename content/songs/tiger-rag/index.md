@@ -8,8 +8,7 @@ lyricists:
 
 year: 1917
 
-scans:
-  - https://archive.org/details/tigerrag00newy/
+imslp: https://imslp.org/wiki/Tiger_Rag_(La_Rocca%2C_D._J.)
 
 jazzstandards: https://www.jazzstandards.com/compositions-2/tigerrag.htm
 wikipedia: https://en.wikipedia.org/wiki/Tiger_Rag
