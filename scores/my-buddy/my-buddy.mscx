@@ -125,7 +125,7 @@
             </TimeSig>
           <Harmony>
             <root>15</root>
-            <name>^7</name>
+            <name>^</name>
             <eid>30064771129</eid>
             </Harmony>
           <Chord>
@@ -530,7 +530,7 @@
           <Harmony>
             <root>18</root>
             <name>7</name>
-            <eid>360777252921</eid>
+            <eid>1009317314617</eid>
             </Harmony>
           <Chord>
             <eid>365072220275</eid>
@@ -754,7 +754,7 @@
         <voice>
           <Harmony>
             <root>15</root>
-            <name>^7</name>
+            <name>^</name>
             <eid>519691042873</eid>
             </Harmony>
           <Chord>

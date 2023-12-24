@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.10">
-  <programVersion>4.1.1</programVersion>
+<museScore version="4.20">
+  <programVersion>4.2.0</programVersion>
   <programRevision></programRevision>
+  <LastEID>354</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -10,6 +11,7 @@
     <showMargins>0</showMargins>
     <open>1</open>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="audioComUrl"></metaTag>
     <metaTag name="composer">Henry Creamer &amp; Turner Layton</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2023-10-07</metaTag>
@@ -84,16 +86,23 @@
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <eid>4294967418</eid>
         <Text>
+          <eid>8589934598</eid>
           <style>title</style>
           <text>After You've Gone</text>
           </Text>
         <Text>
+          <eid>12884901894</eid>
           <style>composer</style>
           <text>Henry Creamer &amp; Turner Layton</text>
           </Text>
@@ -101,54 +110,74 @@
       <Measure>
         <voice>
           <KeySig>
+            <eid>17179869206</eid>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
+            <eid>21474836504</eid>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Harmony>
+            <root>13</root>
+            <name>^</name>
+            <eid>25769803833</eid>
+            </Harmony>
           <Chord>
+            <eid>30064771187</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>34359738408</eid>
               <text>Af</text>
               </Lyrics>
             <Note>
+              <eid>38654705684</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>42949673075</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>47244640296</eid>
               <text>ter</text>
               </Lyrics>
             <Note>
+              <eid>51539607572</eid>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>55834574963</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>60129542184</eid>
               <text>you've</text>
               </Lyrics>
             <Note>
+              <eid>64424509460</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>68719476851</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <ticks>240</ticks>
               <ticks_f>1/8</ticks_f>
+              <eid>73014444072</eid>
               <text>gone</text>
               </Lyrics>
             <Note>
+              <eid>77309411348</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>81604378654</eid>
                   </Tie>
                 <next>
                   <location>
@@ -161,8 +190,10 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>85899346035</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>90194313236</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -178,58 +209,84 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <name>-6</name>
+            <eid>1361504632889</eid>
+            </Harmony>
           <Rest>
+            <eid>94489280537</eid>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <eid>98784247923</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>103079215144</eid>
               <text>and</text>
               </Lyrics>
             <Note>
+              <eid>107374182420</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>111669149811</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>115964117032</eid>
               <text>left</text>
               </Lyrics>
             <Note>
+              <eid>120259084308</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>124554051699</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>128849018920</eid>
               <text>me</text>
               </Lyrics>
             <Note>
+              <eid>133143986196</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>12</root>
+            <name>7</name>
+            <eid>1365799600185</eid>
+            </Harmony>
           <Chord>
+            <eid>137438953587</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>141733920808</eid>
               <text>cry</text>
               </Lyrics>
             <Note>
+              <eid>146028888084</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>150323855475</eid>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>154618822696</eid>
               <text>ing</text>
               </Lyrics>
             <Note>
+              <eid>158913789972</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -238,46 +295,64 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>^</name>
+            <eid>1370094567481</eid>
+            </Harmony>
           <Chord>
+            <eid>167503724659</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>171798691880</eid>
               <text>Af</text>
               </Lyrics>
             <Note>
+              <eid>176093659156</eid>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>180388626547</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>184683593768</eid>
               <text>ter</text>
               </Lyrics>
             <Note>
+              <eid>188978561044</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>193273528435</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>197568495656</eid>
               <text>you've</text>
               </Lyrics>
             <Note>
+              <eid>201863462932</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>206158430323</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>210453397544</eid>
               <text>gone</text>
               </Lyrics>
             <Note>
+              <eid>214748364820</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>219043332126</eid>
                   </Tie>
                 <next>
                   <location>
@@ -290,8 +365,10 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>223338299507</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>227633266708</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -306,60 +383,90 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1511828488272</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
+          <Harmony>
+            <root>18</root>
+            <name>-7</name>
+            <eid>1374389534777</eid>
+            </Harmony>
           <Rest>
+            <eid>236223201305</eid>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <eid>240518168691</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>244813135912</eid>
               <text>There's</text>
               </Lyrics>
             <Note>
+              <eid>249108103188</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>253403070579</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>257698037800</eid>
               <text>no</text>
               </Lyrics>
             <Note>
+              <eid>261993005076</eid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>266287972467</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>270582939688</eid>
               <text>de</text>
               </Lyrics>
             <Note>
+              <eid>274877906964</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>17</root>
+            <name>7</name>
+            <eid>1378684502073</eid>
+            </Harmony>
           <Chord>
+            <eid>279172874355</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
+              <eid>283467841576</eid>
               <text>ny</text>
               </Lyrics>
             <Note>
+              <eid>287762808852</eid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>292057776243</eid>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>296352743464</eid>
               <text>ing,</text>
               </Lyrics>
             <Note>
+              <eid>300647710740</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -368,36 +475,51 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>7</name>
+            <eid>1382979469369</eid>
+            </Harmony>
           <Chord>
+            <eid>309237645427</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>313532612648</eid>
               <text>you'll</text>
               </Lyrics>
             <Note>
+              <eid>317827579924</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>322122547315</eid>
             <durationType>quarter</durationType>
             <Lyrics>
+              <eid>326417514536</eid>
               <text>feel</text>
               </Lyrics>
             <Note>
+              <eid>330712481812</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>335007449203</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <ticks>240</ticks>
               <ticks_f>1/8</ticks_f>
+              <eid>339302416424</eid>
               <text>blue,</text>
               </Lyrics>
             <Note>
+              <eid>343597383700</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>347892351006</eid>
                   </Tie>
                 <next>
                   <location>
@@ -410,8 +532,10 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>352187318387</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>356482285588</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -427,36 +551,51 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>15</root>
+            <name>7</name>
+            <eid>1387274436665</eid>
+            </Harmony>
           <Chord>
+            <eid>360777252979</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>365072220200</eid>
               <text>You'll</text>
               </Lyrics>
             <Note>
+              <eid>369367187476</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>373662154867</eid>
             <durationType>quarter</durationType>
             <Lyrics>
+              <eid>377957122088</eid>
               <text>feel</text>
               </Lyrics>
             <Note>
+              <eid>382252089364</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>386547056755</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <ticks>240</ticks>
               <ticks_f>1/8</ticks_f>
+              <eid>390842023976</eid>
               <text>sad,</text>
               </Lyrics>
             <Note>
+              <eid>395136991252</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>399431958558</eid>
                   </Tie>
                 <next>
                   <location>
@@ -469,8 +608,10 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>403726925939</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>408021893140</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -486,77 +627,104 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>6</name>
+            <eid>1391569403961</eid>
+            </Harmony>
           <Rest>
+            <eid>416611827737</eid>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <eid>420906795123</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>425201762344</eid>
               <text>You'll</text>
               </Lyrics>
             <Note>
+              <eid>429496729620</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>433791697011</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>438086664232</eid>
               <text>miss</text>
               </Lyrics>
             <Note>
+              <eid>442381631508</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>446676598899</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>450971566120</eid>
               <text>the</text>
               </Lyrics>
             <Note>
+              <eid>455266533396</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>459561500787</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>463856468008</eid>
               <text>best</text>
               </Lyrics>
             <Note>
+              <eid>468151435284</eid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>472446402675</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>476741369896</eid>
               <text>est</text>
               </Lyrics>
             <Note>
+              <eid>481036337172</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>485331304563</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>489626271784</eid>
               <text>pal</text>
               </Lyrics>
             <Note>
+              <eid>493921239060</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>498216206451</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>502511173672</eid>
               <text>you've</text>
               </Lyrics>
             <Note>
+              <eid>506806140948</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -564,39 +732,58 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1516123455568</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
+          <Harmony>
+            <root>15</root>
+            <name>-7</name>
+            <eid>1395864371257</eid>
+            </Harmony>
           <Chord>
+            <eid>515396075635</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>519691042856</eid>
               <text>ev</text>
               </Lyrics>
             <Note>
+              <eid>523986010132</eid>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>528280977523</eid>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>532575944744</eid>
               <text>er</text>
               </Lyrics>
             <Note>
+              <eid>536870912020</eid>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>541165879411</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <ticks>240</ticks>
               <ticks_f>1/8</ticks_f>
+              <eid>545460846632</eid>
               <text>had</text>
               </Lyrics>
             <Note>
+              <eid>549755813908</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>554050781214</eid>
                   </Tie>
                 <next>
                   <location>
@@ -608,9 +795,16 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>1400159338553</eid>
+            </Harmony>
           <Chord>
+            <eid>558345748595</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>562640715796</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -626,46 +820,64 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <name>^</name>
+            <eid>1404454305849</eid>
+            </Harmony>
           <Chord>
+            <eid>571230650483</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>575525617704</eid>
               <text>There'll</text>
               </Lyrics>
             <Note>
+              <eid>579820584980</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>584115552371</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>588410519592</eid>
               <text>come</text>
               </Lyrics>
             <Note>
+              <eid>592705486868</eid>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>597000454259</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>601295421480</eid>
               <text>a</text>
               </Lyrics>
             <Note>
+              <eid>605590388756</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>609885356147</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <ticks>240</ticks>
               <ticks_f>1/8</ticks_f>
+              <eid>614180323368</eid>
               <text>time,</text>
               </Lyrics>
             <Note>
+              <eid>618475290644</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>622770257950</eid>
                   </Tie>
                 <next>
                   <location>
@@ -678,8 +890,10 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>627065225331</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>631360192532</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -695,58 +909,84 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <name>-6</name>
+            <eid>1408749273145</eid>
+            </Harmony>
           <Rest>
+            <eid>635655159833</eid>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <eid>639950127219</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>644245094440</eid>
               <text>now</text>
               </Lyrics>
             <Note>
+              <eid>648540061716</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>652835029107</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>657129996328</eid>
               <text>don't</text>
               </Lyrics>
             <Note>
+              <eid>661424963604</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>665719930995</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>670014898216</eid>
               <text>for</text>
               </Lyrics>
             <Note>
+              <eid>674309865492</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>12</root>
+            <name>7</name>
+            <eid>1413044240441</eid>
+            </Harmony>
           <Chord>
+            <eid>678604832883</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>682899800104</eid>
               <text>get</text>
               </Lyrics>
             <Note>
+              <eid>687194767380</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>691489734771</eid>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Lyrics>
+              <eid>695784701992</eid>
               <text>it,</text>
               </Lyrics>
             <Note>
+              <eid>700079669268</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -755,44 +995,62 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>^</name>
+            <eid>1417339207737</eid>
+            </Harmony>
           <Chord>
+            <eid>708669603955</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>712964571176</eid>
               <text>The'll</text>
               </Lyrics>
             <Note>
+              <eid>717259538452</eid>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>721554505843</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>725849473064</eid>
               <text>come</text>
               </Lyrics>
             <Note>
+              <eid>730144440340</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>734439407731</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>738734374952</eid>
               <text>a</text>
               </Lyrics>
             <Note>
+              <eid>743029342228</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>747324309619</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>751619276840</eid>
               <text>time,</text>
               </Lyrics>
             <Note>
+              <eid>755914244116</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>760209211422</eid>
                   </Tie>
                 <next>
                   <location>
@@ -805,8 +1063,10 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>764504178803</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>768799146004</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -822,58 +1082,84 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>18</root>
+            <name>-7</name>
+            <eid>1421634175033</eid>
+            </Harmony>
           <Rest>
+            <eid>777389080601</eid>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <eid>781684047987</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>785979015208</eid>
               <text>when</text>
               </Lyrics>
             <Note>
+              <eid>790273982484</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>794568949875</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>798863917096</eid>
               <text>you'll</text>
               </Lyrics>
             <Note>
+              <eid>803158884372</eid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>807453851763</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>811748818984</eid>
               <text>re</text>
               </Lyrics>
             <Note>
+              <eid>816043786260</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>17</root>
+            <name>7</name>
+            <eid>1425929142329</eid>
+            </Harmony>
           <Chord>
+            <eid>820338753651</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>824633720872</eid>
               <text>gret</text>
               </Lyrics>
             <Note>
+              <eid>828928688148</eid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>833223655539</eid>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Lyrics>
+              <eid>837518622760</eid>
               <text>it</text>
               </Lyrics>
             <Note>
+              <eid>841813590036</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -882,22 +1168,38 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>-7</name>
+            <eid>1430224109625</eid>
+            </Harmony>
           <Chord>
+            <eid>846108557427</eid>
             <durationType>half</durationType>
             <Lyrics>
+              <eid>850403524648</eid>
               <text>Oh!</text>
               </Lyrics>
             <Note>
+              <eid>854698491924</eid>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>17</root>
+            <name>7</name>
+            <eid>1434519076921</eid>
+            </Harmony>
           <Chord>
+            <eid>858993459315</eid>
             <durationType>half</durationType>
             <Lyrics>
+              <eid>863288426536</eid>
               <text>Babe,</text>
               </Lyrics>
             <Note>
+              <eid>867583393812</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -906,48 +1208,67 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>-7</name>
+            <eid>1438814044217</eid>
+            </Harmony>
           <Chord>
+            <eid>871878361203</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>876173328424</eid>
               <text>Think</text>
               </Lyrics>
             <Note>
+              <eid>880468295700</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>884763263091</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>889058230312</eid>
               <text>what</text>
               </Lyrics>
             <Note>
+              <eid>893353197588</eid>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
+                <eid>897648164881</eid>
                 </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>901943132275</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>906238099496</eid>
               <text>you're</text>
               </Lyrics>
             <Note>
+              <eid>910533066772</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>914828034163</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>919123001384</eid>
               <text>do</text>
               </Lyrics>
             <Note>
+              <eid>923417968660</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>927712935966</eid>
                   </Tie>
                 <next>
                   <location>
@@ -959,9 +1280,16 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>13</root>
+            <name>-^7</name>
+            <eid>1443109011513</eid>
+            </Harmony>
           <Chord>
+            <eid>932007903347</eid>
             <durationType>quarter</durationType>
             <Note>
+              <eid>936302870548</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -973,13 +1301,21 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>12</root>
+            <name>7</name>
+            <eid>1447403978809</eid>
+            </Harmony>
           <Chord>
+            <eid>940597837939</eid>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>944892805160</eid>
               <text>ing</text>
               </Lyrics>
             <Note>
+              <eid>949187772436</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -988,84 +1324,124 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>^</name>
+            <eid>1451698946105</eid>
+            </Harmony>
           <Rest>
+            <eid>953482739737</eid>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <eid>957777707123</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>962072674344</eid>
               <text>you</text>
               </Lyrics>
             <Note>
+              <eid>966367641620</eid>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
+                <eid>970662608913</eid>
                 </Accidental>
               <pitch>75</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>974957576307</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>979252543528</eid>
               <text>know</text>
               </Lyrics>
             <Note>
+              <eid>983547510804</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>987842478195</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>992137445416</eid>
               <text>my</text>
               </Lyrics>
             <Note>
+              <eid>996432412692</eid>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>19</root>
+            <name>-7</name>
+            <eid>1455993913401</eid>
+            </Harmony>
           <Chord>
+            <eid>1000727380083</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1005022347304</eid>
               <text>love</text>
               </Lyrics>
             <Note>
+              <eid>1009317314580</eid>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
+                <eid>1013612281873</eid>
                 </Accidental>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1017907249267</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1022202216488</eid>
               <text>for</text>
               </Lyrics>
             <Note>
+              <eid>1026497183764</eid>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
+                <eid>1030792151057</eid>
                 </Accidental>
               <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>18</root>
+            <name>7</name>
+            <eid>1460288880697</eid>
+            </Harmony>
           <Chord>
+            <eid>1035087118451</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1039382085672</eid>
               <text>you</text>
               </Lyrics>
             <Note>
+              <eid>1043677052948</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1047972020339</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1052266987560</eid>
               <text>will</text>
               </Lyrics>
             <Note>
+              <eid>1056561954836</eid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
@@ -1073,49 +1449,78 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1520418422864</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
+          <Harmony>
+            <root>17</root>
+            <name>-7</name>
+            <eid>1464583847993</eid>
+            </Harmony>
           <Chord>
+            <eid>1060856922227</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1065151889448</eid>
               <text>drive</text>
               </Lyrics>
             <Note>
+              <eid>1069446856724</eid>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1073741824115</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1078036791336</eid>
               <text>me</text>
               </Lyrics>
             <Note>
+              <eid>1082331758612</eid>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
+                <eid>1086626725905</eid>
                 </Accidental>
               <pitch>63</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>17</root>
+            <name>-7</name>
+            <base>15</base>
+            <eid>1468878815289</eid>
+            </Harmony>
           <Chord>
+            <eid>1090921693299</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1095216660520</eid>
               <text>to</text>
               </Lyrics>
             <Note>
+              <eid>1099511627796</eid>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1103806595187</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>1108101562408</eid>
               <text>ru</text>
               </Lyrics>
             <Note>
+              <eid>1112396529684</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>1116691496990</eid>
                   </Tie>
                 <next>
                   <location>
@@ -1127,9 +1532,16 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>20</root>
+            <name>o7</name>
+            <eid>1473173782585</eid>
+            </Harmony>
           <Chord>
+            <eid>1120986464371</eid>
             <durationType>quarter</durationType>
             <Note>
+              <eid>1125281431572</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -1142,12 +1554,15 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>1129576398963</eid>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>1133871366184</eid>
               <text>in,</text>
               </Lyrics>
             <Note>
+              <eid>1138166333460</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -1156,48 +1571,67 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>6</name>
+            <base>15</base>
+            <eid>1477468749881</eid>
+            </Harmony>
           <Chord>
+            <eid>1142461300851</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>1146756268072</eid>
               <text>Af</text>
               </Lyrics>
             <Note>
+              <eid>1151051235348</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1155346202739</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>1159641169960</eid>
               <text>ter</text>
               </Lyrics>
             <Note>
+              <eid>1163936137236</eid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1168231104627</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1172526071848</eid>
               <text>you've</text>
               </Lyrics>
             <Note>
+              <eid>1176821039124</eid>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1181116006515</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <ticks>240</ticks>
               <ticks_f>1/8</ticks_f>
+              <eid>1185410973736</eid>
               <text>gone</text>
               </Lyrics>
             <Note>
+              <eid>1189705941012</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>1194000908318</eid>
                   </Tie>
                 <next>
                   <location>
@@ -1209,9 +1643,16 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>17</root>
+            <name>7</name>
+            <eid>1507533520953</eid>
+            </Harmony>
           <Chord>
+            <eid>1198295875699</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>1202590842900</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -1227,58 +1668,84 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>-7</name>
+            <eid>1486058684473</eid>
+            </Harmony>
           <Rest>
+            <eid>1206885810201</eid>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <eid>1211180777587</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>1215475744808</eid>
               <text>Af</text>
               </Lyrics>
             <Note>
+              <eid>1219770712084</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1224065679475</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>1228360646696</eid>
               <text>ter</text>
               </Lyrics>
             <Note>
+              <eid>1232655613972</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1236950581363</eid>
             <durationType>eighth</durationType>
             <Lyrics>
+              <eid>1241245548584</eid>
               <text>you've</text>
               </Lyrics>
             <Note>
+              <eid>1245540515860</eid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>15</root>
+            <name>7</name>
+            <eid>1490353651769</eid>
+            </Harmony>
           <Chord>
+            <eid>1249835483251</eid>
             <durationType>quarter</durationType>
             <Lyrics>
+              <eid>1254130450472</eid>
               <text>gone</text>
               </Lyrics>
             <Note>
+              <eid>1258425417748</eid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1262720385139</eid>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>1267015352360</eid>
               <text>a</text>
               </Lyrics>
             <Note>
+              <eid>1271310319636</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -1287,14 +1754,22 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>6</name>
+            <eid>1494648619065</eid>
+            </Harmony>
           <Chord>
+            <eid>1275605287027</eid>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>1279900254248</eid>
               <text>way</text>
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
+                <eid>1284195221620</eid>
                 </Slur>
               <next>
                 <location>
@@ -1303,11 +1778,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1288490188820</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1292785156211</eid>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -1317,8 +1794,10 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1297080123412</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>1301375090718</eid>
                   </Tie>
                 <next>
                   <location>
@@ -1331,8 +1810,10 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>1305670058099</eid>
             <durationType>half</durationType>
             <Note>
+              <eid>1309965025300</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -1345,12 +1826,15 @@
               </Note>
             </Chord>
           <Chord>
+            <eid>1314259992691</eid>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
+              <eid>1318554959912</eid>
               <text>a</text>
               </Lyrics>
             <Note>
+              <eid>1322849927188</eid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -1359,15 +1843,24 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>15</root>
+            <name>-7</name>
+            <eid>1498943586361</eid>
+            </Harmony>
           <Chord>
+            <eid>1327144894579</eid>
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <eid>1331439861800</eid>
               <text>way</text>
               </Lyrics>
             <Note>
+              <eid>1335734829076</eid>
               <Spanner type="Tie">
                 <Tie>
+                  <eid>1340029796382</eid>
                   </Tie>
                 <next>
                   <location>
@@ -1379,9 +1872,16 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>1503238553657</eid>
+            </Harmony>
           <Chord>
+            <eid>1344324763763</eid>
             <durationType>eighth</durationType>
             <Note>
+              <eid>1348619730964</eid>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -1394,9 +1894,11 @@
               </Note>
             </Chord>
           <Rest>
+            <eid>1352914698265</eid>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <eid>1357209665561</eid>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
