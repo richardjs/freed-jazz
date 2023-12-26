@@ -23,9 +23,15 @@ for song in os.listdir(SCORES_DIR):
     ]
 
     for output_path in output_paths:
-        if output_path.exists() and output_path.stat().st_mtime >= mscx_mtime:
-            print(f"{output_path} is up to date.")
-            continue
+        if output_path.suffix == ".svg":
+            svg_page_path = song_dir / f"{song}-1.svg"
+            if svg_page_path.exists() and svg_page_path.stat().st_mtime >= mscx_mtime:
+                print(f"{svg_page_path} is up to date.")
+                continue
+        else:
+            if output_path.exists() and output_path.stat().st_mtime >= mscx_mtime:
+                print(f"{output_path} is up to date.")
+                continue
 
         print(f"Rendering {output_path}...")
         os.system(f"mscore -o {output_path} {mscx_path}")
