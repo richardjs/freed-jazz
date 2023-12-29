@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision></programRevision>
-  <LastEID>402</LastEID>
+  <LastEID>404</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -745,8 +745,12 @@
               </Lyrics>
             <Note>
               <eid>416611827732</eid>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>1730871820305</eid>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -974,8 +978,12 @@
               </Lyrics>
             <Note>
               <eid>545460846612</eid>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>1735166787601</eid>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -988,8 +996,8 @@
               </Lyrics>
             <Note>
               <eid>554050781204</eid>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
