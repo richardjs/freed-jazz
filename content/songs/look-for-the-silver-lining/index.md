@@ -4,7 +4,7 @@ title: "Look for the Silver Lining"
 composers:
   - Jerome Kern
 lyricists:
-  - Buddy DeSylva
+  - B. G. De Sylva
 
 year: 1920
 
