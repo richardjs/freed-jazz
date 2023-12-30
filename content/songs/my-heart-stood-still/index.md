@@ -9,8 +9,7 @@ lyricists:
 
 year: 1927
 
-scans:
-  - https://digitalcommons.library.umaine.edu/mmb-vp/6260/
+imslp: https://imslp.org/wiki/A_Connecticut_Yankee_(Rodgers,_Richard)#IMSLP890841
 
 jazzstandards: https://www.jazzstandards.com/compositions-2/myheartstoodstill.htm
 wikipedia: https://en.wikipedia.org/wiki/My_Heart_Stood_Still
