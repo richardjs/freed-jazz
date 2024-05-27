@@ -37,18 +37,29 @@ def transpose(mscx_path, to_key_num, output_file):
     key_diff = key_num - to_key_num
 
     steps = key_diff * 7 % 12
-    # if steps > 6:
-    #    steps -= 11
 
     key.text = str(to_key_num)
 
+    min_pitch = None
+    max_pitch = None
+
     for note in root.findall("./Score/Staff/Measure/voice/Chord/Note"):
         pitch = note.find("pitch")
-        pitch.text = str(int(pitch.text) - steps)
+        transposed_pitch = int(pitch.text) - steps
+        pitch.text = str(transposed_pitch)
+
+        min_pitch = min(transposed_pitch, min_pitch) if min_pitch else transposed_pitch
+        max_pitch = max(transposed_pitch, max_pitch) if max_pitch else transposed_pitch
 
         # TODO We should be properly dealing with this
         # https://musescore.github.io/MuseScore_PluginAPI_Docs/plugins/html/tpc.html
+        # For example, see bridge of "Blue Skies" in C; those should be flats
         note.remove(note.find("tpc"))
+
+    # If melody goes below Bb3 and doesn't go aboce D5, move it up an octave
+    if min_pitch < 58 and max_pitch <= 74:
+        for pitch in root.findall("./Score/Staff/Measure/voice/Chord/Note/pitch"):
+            pitch.text = str(int(pitch.text) + 12)
 
     for harmony_root in root.findall("./Score/Staff/Measure/voice/Harmony/root"):
         harmony_root.text = str(int(harmony_root.text) - key_diff)
