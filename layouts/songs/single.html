@@ -4,11 +4,11 @@
 
 <p class="lead">
   {{ if (eq .Params.composers .Params.lyricists) }}
-    Music and lyrics by <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong>
+    Music and lyrics by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
   {{ else }}
-    Music by <strong>{{ delimit .Params.composers ", " " &amp; "}}</strong>
+    Music by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
     {{ if .Params.lyricists }}
-      | Lyrics by <strong>{{ delimit .Params.lyricists ", " " &amp; " }}</strong>
+      | Lyrics by <strong>{{ delimit .Params.lyricists ", " " & " }}</strong>
     {{ end }}
   {{ end }}
   | Published in <strong>{{ .Params.year }}</strong>

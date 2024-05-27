@@ -19,12 +19,12 @@
         </td>
         <td>
           {{ if .Params.composers }}
-            {{- delimit .Params.composers ", " " &amp; " -}}
+            {{- delimit .Params.composers ", " " & " -}}
           {{ end }}
         </td>
         <td>
           {{ if .Params.lyricists }}
-            {{- delimit .Params.lyricists ", " " &amp; " -}}
+            {{- delimit .Params.lyricists ", " " & " -}}
           {{ end }}
         </td>
         <td>{{ .Params.year }}</td>
