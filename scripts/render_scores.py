@@ -10,6 +10,7 @@ SONGS_DIR = Path("content") / "songs"
 
 
 KEYS = {
+    "cb": -7,
     "gb": -6,
     "db": -5,
     "ab": -4,
