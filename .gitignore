@@ -6,4 +6,5 @@ content/songs/*/*.png
 scores/*/audiosettings.json
 scores/*/META-INF
 scores/*/Thumbnails
+scores/*/tmp.mscx
 scores/*/viewsettings.json
