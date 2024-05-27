@@ -30,25 +30,27 @@ def transpose(mscx_path, to_key_num):
     tree = ET.parse(mscx_path)
     root = tree.getroot()
 
-    key_elem = root.find("./Score/Staff/Measure/voice/KeySig/concertKey")
-    key_num = int(key_elem.text)
+    key = root.find("./Score/Staff/Measure/voice/KeySig/concertKey")
+    key_num = int(key.text)
 
-    key_elem.text = str(to_key_num)
+    key_diff = key_num - to_key_num
 
-    steps = (key_num - to_key_num) * 7 % 12
+    steps = key_diff * 7 % 12
     if steps > 6:
         steps -= 11
 
-    for note_elem in root.findall("./Score/Staff/Measure/voice/Chord/Note"):
-        pitch_elem = note_elem.find("pitch")
-        pitch_elem.text = str(int(pitch_elem.text) - steps)
+    key.text = str(to_key_num)
 
-        # TODO We probably should be properly dealing with this,
-        # instead of just removing it.
+    for note in root.findall("./Score/Staff/Measure/voice/Chord/Note"):
+        pitch = note.find("pitch")
+        pitch.text = str(int(pitch.text) - steps)
+
+        # TODO We should be properly dealing with this
         # https://musescore.github.io/MuseScore_PluginAPI_Docs/plugins/html/tpc.html
-        note_elem.remove(note_elem.find("tpc"))
+        note.remove(note.find("tpc"))
 
-    # TODO Change chord symbols
+    for harmony_root in root.findall("./Score/Staff/Measure/voice/Harmony/root"):
+        harmony_root.text = str(int(harmony_root.text) - key_diff)
 
     tree.write("/tmp/output.mscx")
 
