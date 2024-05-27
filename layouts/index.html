@@ -1,23 +1,32 @@
-{{ define "main" }} {{ $songPages := where .Site.RegularPages ".Section" "songs" }}
+{{ define "main" }} {{ $songPages := where .Site.RegularPages ".Section" "songs"
+}}
 
-<h1>Jazz Standards in the U.S. Public Domain</h1>
+<h1 class="display-1 hero">Jazz Standards in the<br />U.S. Public Domain</h1>
 
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-  eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-  in culpa qui officia deserunt mollit anim id est laborum.
+<p class="fs-2">
+  Freed Jazz is a site dedicated to jazz standards in the U.S. public domain.
 </p>
 
-<p class="lead">
+<p class="fs-3">
   There are currently <strong>{{ len $songPages }} songs</strong> in the
-  collection.
+  collection. <a class="fw-bold" href="songs/">Browse songs</a>
 </p>
 
-<h3><a href="songs/">Browse songs by title</a></h3>
-<h3><a href="composers/">Browse songs by composer</a></h3>
-<h3><a href="lyricists/">Browse songs by lyricist</a></h3>
+<h2 class="text-center">What does Freed Jazz do?</h2>
+<p class="fs-5">
+  We aim to be a comprehensive catalog of jazz standards in the
+  <a href="https://imslp.org/wiki/Public_domain">U.S. public domain</a>. For
+  each standard, we create a lead sheet based on its public domain publication
+  and add standard contemporary chord changes. We also add lyrics and provide
+  transpositions for every key. All of Freed Jazz's work is itself released into
+  the public domain.
+</p>
+
+<p class="fs-5" %>
+  Our work builds on top of <a href="https://imslp.org">IMSLP</a> and is
+  inspired by <a href="https://standardebooks.org/">Standard Ebooks</a>.
+</p>
+
+<p class="fs-5"></p>
 
 {{ end }}

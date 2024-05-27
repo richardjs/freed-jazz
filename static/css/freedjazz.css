@@ -1,0 +1,13 @@
+.hero {
+  background-image: url("../hero.png");
+  color: #fff;
+  font-family: courier;
+  min-height: 400px;
+  text-shadow:
+    5px 5px 0 rgba(0, 0, 0, 0.75),
+    0 0 5px rgba(0, 0, 0, 1);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
