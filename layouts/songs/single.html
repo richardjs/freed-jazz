@@ -21,7 +21,7 @@
     <h2>Lead Sheet</h2>
     <p class="fs-4 mb-0"><a href="{{ .File.ContentBaseName }}.pdf">PDF (original key)</a></p>
     <p class="fs-5 mt-0">
-        {{ range slice "cb" "gb" "db" "ab" "eb" "bb" "f" "c" "g" "d" "a" "e" "b" "f#" "c#"}}
+        {{ range slice "c" "g" "d" "a" "e" "b" "f#" "c#" "cb" "gb" "db" "ab" "eb" "bb" "f" }}
         <a href="{{ $basename }}_{{ . }}.pdf">{{ title . }}</a>
         &nbsp;
         {{ end }}
