@@ -1,10 +1,9 @@
-<table class="table">
+<table class="table fs-5">
   <thead>
     <tr>
       <th scope="col">Title</th>
       <th scope="col">Composer</th>
       <th scope="col">Lyricist</th>
-      <th scope="col">Year</th>
     </tr>
   </thead>
   <tbody>
@@ -27,7 +26,6 @@
             {{- delimit .Params.lyricists ", " " & " -}}
           {{ end }}
         </td>
-        <td>{{ .Params.year }}</td>
       </tr>
     {{ end }}
   </tbody>
