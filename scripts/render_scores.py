@@ -83,14 +83,12 @@ for song in os.listdir(SCORES_DIR):
     output_paths = [
         song_dir / f"{song}.pdf",
         song_dir / f"{song}.mscz",
-        song_dir / f"{song}.svg",
         png_path,
     ]
 
     for key, key_num in KEYS.items():
         output_paths += [
             song_dir / f"{song}_{key}.pdf",
-            song_dir / f"{song}_{key}.svg",
         ]
 
     for output_path in output_paths:
@@ -103,12 +101,6 @@ for song in os.listdir(SCORES_DIR):
             tmp_mscx = score_dir / "tmp.mscx"
             transpose(render_input_path, KEYS[key], tmp_mscx)
             render_input_path = tmp_mscx
-
-        if output_path.suffix == ".svg":
-            svg_page_path = Path(str(output_path).replace(".svg", "-1.svg"))
-            if svg_page_path.exists() and svg_page_path.stat().st_mtime >= mscx_mtime:
-                print(f"{svg_page_path} is up to date.")
-                continue
         else:
             if output_path.exists() and output_path.stat().st_mtime >= mscx_mtime:
                 print(f"{output_path} is up to date.")

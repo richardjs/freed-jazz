@@ -26,13 +26,6 @@
         &nbsp;
         {{ end }}
     </p>
-    <p class="fs-4 mb-0"><a href="{{ .File.ContentBaseName }}-1.svg">SVG (original key)</a></p>
-    <p class="fs-5 mt-0">
-        {{ range slice "cb" "gb" "db" "ab" "eb" "bb" "f" "c" "g" "d" "a" "e" "b" "f#" "c#"}}
-        <a href="{{ $basename }}_{{ . }}-1.svg">{{ title . }}</a>
-        &nbsp;
-        {{ end }}
-    </p>
     <p class="fs-4"><a href="{{ .File.ContentBaseName }}.mscz">MuseScore Studio file</a></p>
     <h2>Resources</h2>
     {{ if .Params.imslp }}
