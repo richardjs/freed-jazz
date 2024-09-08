@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="/css/freedjazz.css" />
   </head>
   <body>
+    {{ if hugo.IsProduction }}
+        <div style="width: 100%; background: red; text-align: center; font-size: large;">
+            <p>Warning: Site is under development. Ensure public domain claims apply to your jurisdiction!</p> 
+        </div>
+    {{ end }}
     <div class="container">
       <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container-fluid">
