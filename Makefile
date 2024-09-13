@@ -9,6 +9,8 @@ clean:
 	rm -f content/songs/*/*.mscz
 	rm -f content/songs/*/*.svg
 	rm -f content/songs/*/*.png
-	rm -f scores/*/tmp.mscx
+	rm -f scores/*/*_tmp.mscx
+
+fresh: clean render
 
 # vim: set noexpandtab sts=0:

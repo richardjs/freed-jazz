@@ -26,7 +26,18 @@
         &nbsp;
         {{ end }}
     </p>
+
+    <h3>Bass Clef</h3>
+    <p class="fs-4 mb-0"><a href="{{ .File.ContentBaseName }}_bass.pdf">PDF (original key)</a></p>
+    <p class="fs-5 mt-0">
+        {{ range slice "c" "g" "d" "a" "e" "b" "f#" "c#" "cb" "gb" "db" "ab" "eb" "bb" "f" }}
+        <a href="{{ $basename }}_{{ . }}_bass.pdf">{{ title . }}</a>
+        &nbsp;
+        {{ end }}
+    </p>
+
     <p class="fs-4"><a href="{{ .File.ContentBaseName }}.mscz">MuseScore Studio file</a></p>
+
     <h2>Resources</h2>
     {{ if .Params.imslp }}
       <p>

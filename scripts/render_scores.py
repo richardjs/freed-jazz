@@ -28,7 +28,7 @@ KEYS = {
 }
 
 
-def transpose(mscx_path, to_key_num, output_file):
+def transpose(mscx_path, to_key_num, clef, output_file):
     tree = ET.parse(mscx_path)
     root = tree.getroot()
 
@@ -71,6 +71,42 @@ def transpose(mscx_path, to_key_num, output_file):
     tree.write(output_file)
 
 
+def to_bass_clef(mscx_path, output_file):
+    tree = ET.parse(mscx_path)
+    root = tree.getroot()
+
+    # Create bass clef element
+    clef = ET.Element("Clef")
+    concert_clef_type = ET.SubElement(clef, "concertClefType")
+    concert_clef_type.text = "F"
+    transposing_clef_type = ET.SubElement(clef, "transposingClefType")
+    transposing_clef_type.text = "F"
+    is_header = ET.SubElement(clef, "isHeader")
+    is_header.text = "1"
+    voice = root.find("./Score/Staff/Measure/voice")
+    voice.insert(0, clef)
+
+    # Lower everything by an octave
+    for pitch in root.findall("./Score/Staff/Measure/voice/Chord/Note/pitch"):
+        pitch.text = str(int(pitch.text) - 12)
+
+    min_pitch = None
+    max_pitch = None
+
+    for note in root.findall("./Score/Staff/Measure/voice/Chord/Note"):
+        pitch = int(note.find("pitch").text)
+
+        min_pitch = min(pitch, min_pitch) if min_pitch else pitch
+        max_pitch = max(pitch, max_pitch) if max_pitch else pitch
+
+    # If melody goes above F4 and doesn't go below B1, move it down another octave
+    if max_pitch > 65 and min_pitch >= 35:
+        for pitch in root.findall("./Score/Staff/Measure/voice/Chord/Note/pitch"):
+            pitch.text = str(int(pitch.text) - 12)
+
+    tree.write(output_file)
+
+
 for song in os.listdir(SCORES_DIR):
     score_dir = SCORES_DIR / song
     mscx_path = score_dir / f"{song}.mscx"
@@ -81,30 +117,58 @@ for song in os.listdir(SCORES_DIR):
 
     png_path = song_dir / f"{song}.png"
     output_paths = [
-        song_dir / f"{song}.pdf",
-        song_dir / f"{song}.mscz",
-        png_path,
+        (
+            song_dir / f"{song}.pdf",
+            None,
+            "treble",
+        ),
+        (
+            song_dir / f"{song}_bass.pdf",
+            None,
+            "bass",
+        ),
+        (
+            song_dir / f"{song}.mscz",
+            None,
+            "treble",
+        ),
+        (
+            png_path,
+            None,
+            "treble",
+        ),
     ]
 
     for key, key_num in KEYS.items():
         output_paths += [
-            song_dir / f"{song}_{key}.pdf",
+            (
+                song_dir / f"{song}_{key}.pdf",
+                key,
+                "treble",
+            ),
+            (
+                song_dir / f"{song}_{key}_bass.pdf",
+                key,
+                "bass",
+            ),
         ]
 
-    for output_path in output_paths:
+    for output_path, transpose_key, clef in output_paths:
         render_input_path = mscx_path
 
-        # Grab key from the filename, if thee is one
-        match = re.match(r"[^\.]+_([^\.]+)\.[^\.]+", str(output_path))
-        if match:
-            key = match.groups()[0]
-            tmp_mscx = score_dir / "tmp.mscx"
-            transpose(render_input_path, KEYS[key], tmp_mscx)
+        if transpose_key:
+            tmp_mscx = score_dir / "transpose_tmp.mscx"
+            transpose(render_input_path, KEYS[transpose_key], clef, tmp_mscx)
             render_input_path = tmp_mscx
-        else:
-            if output_path.exists() and output_path.stat().st_mtime >= mscx_mtime:
-                print(f"{output_path} is up to date.")
-                continue
+
+        if clef == "bass":
+            tmp_mscx = score_dir / "bass_tmp.mscx"
+            to_bass_clef(render_input_path, tmp_mscx)
+            render_input_path = tmp_mscx
+
+        if output_path.exists() and output_path.stat().st_mtime >= mscx_mtime:
+            print(f"{output_path} is up to date.")
+            continue
 
         print(f"Rendering {output_path}...")
         os.system(f"mscore -o {output_path} {render_input_path}")
