@@ -15,5 +15,5 @@ window.addEventListener("load", (e) => {
 
 function enablePreviews() {
   localStorage.setItem("showPreviews", "true");
-  window.reload();
+  location.reload();
 }
