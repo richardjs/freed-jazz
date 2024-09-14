@@ -1,5 +1,5 @@
 ---
-title: "Makin Whoopee"
+title: "Makin' Whoopee"
 
 composers:
   - Walter Donaldson
