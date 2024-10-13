@@ -2,22 +2,30 @@
 
 {{ $basename := .File.ContentBaseName }}
 
-<h1>{{ .Title}}</h1>
-
-<p class="lead">
-  {{ if (eq .Params.composers .Params.lyricists) }}
-    Music and lyrics by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
-  {{ else }}
-    Music by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
-    {{ if .Params.lyricists }}
-      | Lyrics by <strong>{{ delimit .Params.lyricists ", " " & " }}</strong>
-    {{ end }}
-  {{ end }}
-  | Published in <strong>{{ .Params.year }}</strong>
-</p>
 
 <div class="row">
-  <div class="col">
+  <div class="col mt-1">
+    <div id="songPreview">
+        <img style="width: 100%" data-src="{{ .File.ContentBaseName }}.png" />
+    </div>
+  </div>
+
+  <div class="col-lg-1 col-sm-12">
+  </div>
+
+  <div class="col-lg-5 col-sm-12">
+<h1>{{ .Title}}</h1>
+    <p class="lead">
+      {{ if (eq .Params.composers .Params.lyricists) }}
+        Music and lyrics by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
+      {{ else }}
+        Music by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
+        {{ if .Params.lyricists }}
+          <br>Lyrics by <strong>{{ delimit .Params.lyricists ", " " & " }}</strong>
+        {{ end }}
+      {{ end }}
+      <br>Published in <strong>{{ .Params.year }}</strong>
+    </p>
     <h2>Lead Sheet</h2>
     <p class="fs-4 mb-0"><a href="{{ .File.ContentBaseName }}.pdf">PDF (original key)</a></p>
     <p class="fs-5 mt-0">
@@ -55,12 +63,6 @@
       <p><a href="{{ .Params.wikipedia }}">{{ .Title }}</a>
       on Wikipedia</p>
     {{ end }}
-  </div>
-
-  <div class="col">
-    <div id="songPreview">
-        <img style="width: 100%" data-src="{{ .File.ContentBaseName }}.png" />
-    </div>
   </div>
 </div>
 
