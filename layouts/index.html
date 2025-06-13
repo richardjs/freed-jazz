@@ -1,40 +1,21 @@
-{{ define "main" }} {{ $songPages := where .Site.RegularPages ".Section" "songs"
-}}
+{{ define "main" }} {{ $songPages := where .Site.RegularPages ".Section" "songs"}}
 
-<h1 class="display-1 hero">Jazz Standards in the<br />U.S. Public Domain</h1>
+<h1 class="display-5">Jazz Standards in the U.S. Public Domain</h1>
 
-<hr>
-<p class="fs-3 text-center">
-  There are currently <strong>{{ len $songPages }} songs</strong> in the
-  collection. <a class="fw-bold" href="songs/">Browse songs</a>
-</p>
-<hr>
-
-<h2 class="text-center">What does Freed Jazz do?</h2>
-
-<p class="fs-5">
-  In the United States, works published 95 years ago&mdash;before 1929
-  &mdash;are <a href="https://imslp.org/wiki/IMSLP:Copyright_Made_Simple">in
-  the public domain</a>. This includes <a href="songs/">many jazz standards</a>, such as
-  <a href="songs/blue-skies/">Blue Skies</a>,
-  <a href="songs/someone-to-watch-over-me/">Someone to Watch Over Me</a>, and
-  <a href="songs/after-youve-gone/">After You've Gone</a>. Every year more
-  enter the public domain!
+<p class="lead">
+  In the United States, compositions published 95 years ago are in the public
+  domain. This includes many jazz standards. Freed Jazz catalogues and
+  publishes lead sheets for these tunes. All of our work is itself released
+  into the public domain, <strong>unencumbered by U.S. copyright restrictions
+  and free of cost.</strong>
 </p>
 
-<p class="fs-5">
-  Freed Jazz is dedicated to these standards. We publish lead sheets for each,
-  complete with lyrics, contemporary changes, and transpositions to every key.
-  All of our work is itself released into the public domain, and is available
-  <b>completely free</b>.
+<p>
+  There are currently <strong>{{ len $songPages }} tunes</strong> in the
+  collection. We're working through a backlog, and every year more tunes enter the
+  public domain.
 </p>
 
-<p class="fs-5" %>
-  Our work builds on top of the invaluable cataloging work of <a
-  href="https://imslp.org">IMSLP</a> and is inspired by the wonderful <a
-  href="https://standardebooks.org/">Standard Ebooks</a> project.
-</p>
-
-<p class="fs-5"></p>
+{{ partial "song-columns.html" $songPages }}
 
 {{ end }}

@@ -1,0 +1,11 @@
+<ul class="song-columns">
+  {{ range sort . ".Params.title" }}
+    {{ $noIMSLP := not .Params.imslp }}
+    {{ $noScore := not (os.FileExists (path.Join "scores" .File.ContentBaseName)) }}
+    <li>
+      <a class="song-columns-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- if $noIMSLP }} <small>[no IMSLP]</small>{{ end -}}
+      {{- if $noScore }} <small>[no score]</small> {{ end -}}
+    </li>
+  {{ end }}
+</ul>

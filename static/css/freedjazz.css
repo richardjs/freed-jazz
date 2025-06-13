@@ -1,13 +1,30 @@
-.hero {
-  background-image: url("../hero.png");
-  color: #fff;
-  font-family: courier;
-  min-height: 400px;
-  text-shadow:
-    5px 5px 0 rgba(0, 0, 0, 0.75),
-    0 0 5px rgba(0, 0, 0, 1);
-  align-items: center;
-  display: flex;
-  justify-content: center;
+h1 {
   text-align: center;
+}
+
+.song-columns {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (min-width: 769px) {
+  .song-columns {
+    column-count: 2;
+    list-style: disc;
+    padding-left: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .song-columns {
+    column-count: 3;
+  }
+}
+
+.song-columns li {
+  break-inside: avoid;
+}
+
+.song-columns-link {
+  text-decoration: none;
 }
