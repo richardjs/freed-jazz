@@ -6,15 +6,14 @@
 <div class="row">
   <div class="col mt-1">
     <div id="songPreview">
-        <img style="width: 100%" data-src="{{ .File.ContentBaseName }}.png" />
+        <img style="width: 100%; margin-top: 5px;" data-src="{{ .File.ContentBaseName }}.png" />
     </div>
   </div>
 
-  <div class="col-lg-1 col-sm-12">
-  </div>
 
-  <div class="col-lg-5 col-sm-12">
-<h1>{{ .Title}}</h1>
+  <div class="col-lg-6 col-sm-12">
+    <h1>{{ .Title}}</h1>
+
     <p class="lead">
       {{ if (eq .Params.composers .Params.lyricists) }}
         Music and lyrics by <strong>{{ delimit .Params.composers ", " " & "}}</strong>
@@ -26,43 +25,47 @@
       {{ end }}
       <br>Published in <strong>{{ .Params.year }}</strong>
     </p>
-    <h2>Lead Sheet</h2>
-    <p class="fs-4 mb-0"><a href="{{ .File.ContentBaseName }}.pdf">PDF (original key)</a></p>
-    <p class="fs-5 mt-0">
-        {{ range slice "c" "g" "d" "a" "e" "b" "f#" "c#" "cb" "gb" "db" "ab" "eb" "bb" "f" }}
-        <a href="{{ $basename }}_{{ . }}.pdf">{{ title . }}</a>
-        &nbsp;
+
+    <h3>Downloads</h3>
+    <h4 style="font-weight: bold;"><a href="{{ .File.ContentBaseName }}.pdf">Lead sheet</a></h4>
+    <h5><a href="{{ .File.ContentBaseName }}_bass.pdf">Bass clef lead sheet</a></h4>
+    <h5 class="col"><a href="{{ .File.ContentBaseName }}.mscz">MuseScore Studio file</a></h4>
+
+    <table class="table" style="caption-side: top;">
+      <caption>Transpositions (beta)</caption>
+      <thead>
+        <tr>
+          <th>Clef</th>
+          <th colspan="15">Key</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>Treble</td>
+        {{ range slice "c" "c#" "db" "d" "eb" "e" "f" "f#" "gb" "g" "ab" "a" "bb" "b" "cb" }}
+          <td><a href="{{ $basename }}_{{ . }}.pdf">{{ title . }}</a></td>
         {{ end }}
-    </p>
-
-    <h3>Bass Clef</h3>
-    <p class="fs-4 mb-0"><a href="{{ .File.ContentBaseName }}_bass.pdf">PDF (original key)</a></p>
-    <p class="fs-5 mt-0">
-        {{ range slice "c" "g" "d" "a" "e" "b" "f#" "c#" "cb" "gb" "db" "ab" "eb" "bb" "f" }}
-        <a href="{{ $basename }}_{{ . }}_bass.pdf">{{ title . }}</a>
-        &nbsp;
+      </tr>
+      <tr>
+        <td>Bass</td>
+        {{ range slice "c" "c#" "db" "d" "eb" "e" "f" "f#" "gb" "g" "ab" "a" "bb" "b" "cb" }}
+          <td><a href="{{ $basename }}_{{ . }}_bass.pdf">{{ title . }}</a></td>
         {{ end }}
-    </p>
+      </tr>
+    </table>
 
-    <p class="fs-4"><a href="{{ .File.ContentBaseName }}.mscz">MuseScore Studio file</a></p>
 
-    <h2>Resources</h2>
-    {{ if .Params.imslp }}
-      <p>
-        <a href="{{ .Params.imslp }}">{{ .Title }}</a>
-        on IMSLP
-      </p>
-    {{ end }}
-    {{ if .Params.jazzstandards }}
-      <p>
-        <a href="{{ .Params.jazzstandards }}">{{ .Title }}</a>
-        on JazzStandards.com
-      </p>
-    {{ end }}
-    {{ if .Params.wikipedia }}
-      <p><a href="{{ .Params.wikipedia }}">{{ .Title }}</a>
-      on Wikipedia</p>
-    {{ end }}
+    <h3>Resources</h2>
+    <h5>
+      {{ if .Params.imslp }}
+          <a href="{{ .Params.imslp }}">IMSLP</a>
+      {{ end }}
+      {{ if .Params.jazzstandards }}
+        | <a href="{{ .Params.jazzstandards }}">JazzStandards.com</a>
+      {{ end }}
+      {{ if .Params.wikipedia }}
+        | <a href="{{ .Params.wikipedia }}">Wikipedia</a>
+      {{ end }}
+    </h5>
   </div>
 </div>
 
