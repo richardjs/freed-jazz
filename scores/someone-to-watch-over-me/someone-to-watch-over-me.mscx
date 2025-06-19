@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.20">
-  <programVersion>4.2.0</programVersion>
+<museScore version="4.40">
+  <programVersion>4.4.4</programVersion>
   <programRevision></programRevision>
-  <LastEID>367</LastEID>
+  <LastEID>2905</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -95,6 +95,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>4294967418</eid>
         <Text>
           <eid>8589934598</eid>
@@ -224,7 +225,7 @@
         <voice>
           <Harmony>
             <root>10</root>
-            <name>7</name>
+            <name>^</name>
             <eid>1408749273145</eid>
             </Harmony>
           <Chord>
@@ -733,7 +734,7 @@
         <voice>
           <Harmony>
             <root>10</root>
-            <name>7</name>
+            <name>^</name>
             <eid>1408749273145</eid>
             </Harmony>
           <Chord>
@@ -1674,7 +1675,7 @@
         <voice>
           <Harmony>
             <root>10</root>
-            <name>7</name>
+            <name>^</name>
             <eid>1408749273145</eid>
             </Harmony>
           <Chord>
