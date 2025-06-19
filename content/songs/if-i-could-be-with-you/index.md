@@ -1,5 +1,5 @@
 ---
-title: "If I Could Be With You (One Hour Tonight)"
+title: "If I Could Be With You"
 
 composers:
   - James P. Johnson
