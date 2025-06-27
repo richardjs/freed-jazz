@@ -27,6 +27,16 @@
     </p>
 
     <h3>Downloads</h3>
+    <p id="copyrightWarning" class="text-danger">Tunes on Freed Jazz are thought
+    to be free of copyright restrictions in the United States. They may still be
+    under copyright in other countries. If you’re not located in the United
+    States, you must check your local laws to verify that each tune is free of
+    copyright restrictions in the country you’re located in before accessing,
+    downloading, or using them. Check this work's <a href="{{ .Params.imslp
+    }}">IMSLP page</a> for more information about its copyright status.
+    <br />
+    <a style="float: right" href="javascript:hideCopyightWarning()">Hide this warning</a></p>
+
     <h4 style="font-weight: bold;"><a href="{{ .File.ContentBaseName }}.pdf">Lead sheet</a></h4>
     <h5><a href="{{ .File.ContentBaseName }}_bass.pdf">Bass clef lead sheet</a></h4>
     <h5 class="col"><a href="{{ .File.ContentBaseName }}.mscz">MuseScore Studio file</a></h4>

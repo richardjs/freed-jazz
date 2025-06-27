@@ -7,13 +7,24 @@ window.addEventListener("load", (e) => {
     } else {
       let notice = document.createElement("p");
       notice.innerHTML =
-        'Previews are not shown by default, in case the song is not in the public domain in your jurisdiction. <a href="javascript:enablePreviews();">Enable previews</a>';
+        'Previews are disabled by default because copyright laws vary by country. Only enable previews if you are located in the United States. <a href="javascript:enablePreviews();">Enable previews</a>';
       previewDiv.appendChild(notice);
     }
+  }
+
+  if (localStorage.getItem("hideCopyightWarning")) {
+      let copyrightWarning = document.querySelector("#copyrightWarning");
+      copyrightWarning.style.display = "none";
   }
 });
 
 function enablePreviews() {
   localStorage.setItem("showPreviews", "true");
   location.reload();
+}
+
+function hideCopyightWarning() {
+  localStorage.setItem("hideCopyightWarning", "true");
+  let copyrightWarning = document.querySelector("#copyrightWarning");
+  copyrightWarning.style.display = "none";
 }
