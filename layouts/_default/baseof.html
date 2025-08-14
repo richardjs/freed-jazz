@@ -8,29 +8,26 @@
       {{ .Site.Title }}{{ if not .IsHome }} - {{ .Page.Title }}{{ end }}
     </title>
 
-    <script src="/js/freedjazz.js"></script>
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css" />
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <script src="/js/freedjazz.js"></script>
     <link rel="stylesheet" href="/css/freedjazz.css" />
   </head>
   <body>
-    {{ if hugo.IsProduction }}
-        <div style="width: 100%; background: red; text-align: center; font-size: large;">
-            <p>Warning: Site is under development. Ensure public domain claims apply to your jurisdiction!</p> 
-        </div>
-    {{ end }}
     <div class="container">
       <nav class="navbar navbar-expand bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="{{ .Site.BaseURL }}"
-            >Freed Jazz</a
-          >
+          <a class="navbar-brand" href="{{ .Site.BaseURL }}">Freed Jazz</a>
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
               <a class="nav-link" href="{{ .Site.BaseURL }}">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/richardjs/freed-jazz">Repo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .Site.BaseURL }}contact/">Contact</a>
             </li>
           </ul>
         </div>
