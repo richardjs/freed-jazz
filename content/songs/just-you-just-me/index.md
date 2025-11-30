@@ -1,5 +1,5 @@
 ---
-title: "Just You Just Me"
+title: "Just You, Just Me"
 
 composers:
   - Jesse Greer
