@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <LastEID>335</LastEID>
   <Score>
     <Division>480</Division>
@@ -10,21 +9,21 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Irving Berlin</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2023-10-08</metaTag>
-    <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="lyricist" />
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="poet" />
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">What'll I Do?</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -83,11 +82,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -168,7 +167,7 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -587,7 +586,7 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -706,7 +705,7 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1121,7 +1120,7 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1244,7 +1243,7 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1752,7 +1751,7 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2168,7 +2167,7 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>

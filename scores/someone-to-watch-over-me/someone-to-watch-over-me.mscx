@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <LastEID>2905</LastEID>
   <Score>
     <Division>480</Division>
@@ -10,21 +9,21 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">George Gershwin</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2023-10-07</metaTag>
     <metaTag name="lyricist">Ira Gershwin</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="poet" />
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Someone to Watch Over Me</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -83,11 +82,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -2034,7 +2033,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>13</root>
             <name>-7</name>
             <eid>1550483193913</eid>
@@ -2063,7 +2062,7 @@
             <root>12</root>
             <name>7</name>
             <eid>1559073128505</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           <Rest>
             <eid>1395864371225</eid>

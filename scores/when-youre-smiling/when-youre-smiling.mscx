@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.50">
   <programVersion>4.5.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <Score>
     <eid>ENvrU6HAU3I_DGQ8V9qvBrG</eid>
     <Division>480</Division>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Mark Fisher, Joe Goodwin, and Larry Shay</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2025-08-20</metaTag>
-    <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="lyricist" />
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">When You're Smiling</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1626,7 +1625,7 @@
         <eid>FUKrcmx3KBC_sLUE7AYY1yI</eid>
         <voice>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>14</root>
             <name>-7</name>
             <eid>fNKZbMQsKwG_pGUtvjgz0DC</eid>
@@ -1651,7 +1650,7 @@
             <root>13</root>
             <name>7</name>
             <eid>PRQz4isIQyL_/887/H4s/8I</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           <Rest>
             <eid>SN+s4g1qVcP_uHiDWUAndgE</eid>

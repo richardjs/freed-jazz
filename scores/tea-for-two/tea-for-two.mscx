@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <LastEID>404</LastEID>
   <Score>
     <Division>480</Division>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Vincent Youmans</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2023-12-29</metaTag>
     <metaTag name="lyricist">Irving Caesar</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Tea for Two</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -2194,7 +2193,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>14</root>
             <name>07</name>
             <eid>1722281885753</eid>
@@ -2229,7 +2228,7 @@
             <root>13</root>
             <name>7b9</name>
             <eid>1726576853049</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           <Chord>
             <eid>970662609011</eid>

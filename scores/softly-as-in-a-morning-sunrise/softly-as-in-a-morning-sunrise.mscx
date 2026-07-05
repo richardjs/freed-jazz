@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.30">
   <programVersion>4.3.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <LastEID>345</LastEID>
   <Score>
     <Division>480</Division>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Sigmund Romberg</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2024-09-13</metaTag>
     <metaTag name="lyricist">Oscar Hammerstein II</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Softly, As In A Morning Sunrise</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1009,7 +1008,7 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           <Harmony>
             <root>16</root>
             <name>7</name>
@@ -1066,7 +1065,7 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1294,7 +1293,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           <Tuplet>
             <eid>592705486894</eid>
             <normalNotes>2</normalNotes>
@@ -1346,7 +1345,7 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1970,7 +1969,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>20</root>
             <name>07</name>
             <eid>1417339207738</eid>
@@ -1999,7 +1998,7 @@
             <root>19</root>
             <name>7b9</name>
             <eid>1421634175034</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           <Rest>
             <eid>940597837850</eid>

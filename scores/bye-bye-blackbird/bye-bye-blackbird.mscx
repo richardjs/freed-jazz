@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.50">
   <programVersion>4.5.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <Score>
     <eid>dwiY0HgNdjO_7yUl7oxK+4H</eid>
     <Division>480</Division>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Ray Henderson</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2025-08-28</metaTag>
     <metaTag name="lyricist">Mort Dixon</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Bye Bye Blackbird</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1563,7 +1562,7 @@
         <eid>UXskiiarb4L_jM9w0dRL5XC</eid>
         <voice>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>15</root>
             <name>-7</name>
             <eid>Mwztt5yRbUI_giBbnAichbK</eid>
@@ -1580,7 +1579,7 @@
             <root>14</root>
             <name>7</name>
             <eid>Bfn7w5zFpfB_aFYmyuswZaO</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           </voice>
         </Measure>

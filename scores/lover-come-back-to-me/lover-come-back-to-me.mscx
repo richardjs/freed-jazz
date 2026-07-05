@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.30">
   <programVersion>4.3.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <LastEID>520</LastEID>
   <Score>
     <Division>480</Division>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Sigmund Romberg</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2024-09-13</metaTag>
     <metaTag name="lyricist">Oscar Hammerstein II</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Lover, Come Back to Me</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -560,7 +559,7 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <eid>1490353651752</eid>
-              <text>&quot;Lov</text>
+              <text>"Lov</text>
               </Lyrics>
             <Note>
               <eid>403726925845</eid>
@@ -658,7 +657,7 @@
               <ticks>960</ticks>
               <ticks_f>2/4</ticks_f>
               <eid>1511828488232</eid>
-              <text>be?&quot;</text>
+              <text>be?"</text>
               </Lyrics>
             <Note>
               <eid>446676598805</eid>
@@ -1146,7 +1145,7 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <eid>1623497637928</eid>
-              <text>&quot;Lov</text>
+              <text>"Lov</text>
               </Lyrics>
             <Note>
               <eid>682899800085</eid>
@@ -1242,7 +1241,7 @@
             <durationType>half</durationType>
             <Lyrics>
               <eid>1644972474408</eid>
-              <text>me!&quot;</text>
+              <text>me!"</text>
               </Lyrics>
             <Note>
               <eid>725849473045</eid>
@@ -2403,7 +2402,7 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <eid>1937030250536</eid>
-              <text>&quot;Lov</text>
+              <text>"Lov</text>
               </Lyrics>
             <Note>
               <eid>1331439861781</eid>
@@ -2494,7 +2493,7 @@
             <durationType>half</durationType>
             <Lyrics>
               <eid>1958505087016</eid>
-              <text>me!&quot;</text>
+              <text>me!"</text>
               </Lyrics>
             <Note>
               <eid>1374389534741</eid>
@@ -2506,7 +2505,7 @@
             <fractions>-1/4</fractions>
             </location>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>18</root>
             <name>-7</name>
             <eid>2220498092090</eid>
@@ -2530,7 +2529,7 @@
             <root>16</root>
             <name>7</name>
             <eid>2229088026682</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           </voice>
         </Measure>

@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <LastEID>8911</LastEID>
   <Score>
     <Division>480</Division>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Vincent Youmans</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2025-06-07</metaTag>
     <metaTag name="lyricist">William Rose &amp; Edward Eliscu</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">More Than You Know</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -179,7 +178,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -265,7 +264,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -351,7 +350,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -514,7 +513,7 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -600,7 +599,7 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -686,7 +685,7 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -822,7 +821,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -914,7 +913,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1000,7 +999,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1163,7 +1162,7 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1244,7 +1243,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2034,7 +2033,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2124,7 +2123,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2210,7 +2209,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2280,7 +2279,7 @@
             <Lyrics>
               <syllabic>begin</syllabic>
               <eid>30124900614184</eid>
-              <text>&quot;good</text>
+              <text>"good</text>
               </Lyrics>
             <Note>
               <eid>4028679323668</eid>
@@ -2307,7 +2306,7 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <eid>30193620090920</eid>
-              <text>bye,&quot;</text>
+              <text>bye,"</text>
               </Lyrics>
             <Note>
               <eid>4131758538772</eid>
@@ -2373,7 +2372,7 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2454,7 +2453,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2535,7 +2534,7 @@
             <fractions>-1/2</fractions>
             </location>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>17</root>
             <name>-7</name>
             <eid>37276021162042</eid>
@@ -2573,7 +2572,7 @@
             <root>15</root>
             <name>7</name>
             <eid>37434934951994</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           <Rest>
             <eid>27238682591258</eid>

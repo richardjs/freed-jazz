@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.70">
   <programVersion>4.7.3</programVersion>
   <programRevision>cf9860c</programRevision>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Willard Robison</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2026-07-03</metaTag>
     <metaTag name="lyricist">Larry Conley</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">A Cottage For Sale</metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
+    <metaTag name="workTitle">A Cottage for Sale</metaTag>
     <Part id="1">
       <Staff>
         <eid>5KxpNdS0Z1K_NxusRLlX/mH</eid>
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -292,7 +291,7 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <eid>b4M7gb2L3KN_i+untkDA6MC</eid>
-              <text>‘ry</text>
+              <text>&#8216;ry</text>
               </Lyrics>
             <Note>
               <eid>5q89I8av6SC_AlL8SUCtD2J</eid>
@@ -1718,7 +1717,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <eid>Yw1IT47A92L_uTtJRxegyuC</eid>
-              <text>“a</text>
+              <text>&#8220;a</text>
               </Lyrics>
             <Note>
               <eid>GI1kJUVHUaK_Fnj8MO5RPNC</eid>
@@ -1795,7 +1794,7 @@
             <durationType>whole</durationType>
             <Lyrics>
               <eid>t+tinNOBvSC_k2JA/Djj0yE</eid>
-              <text>sale.”</text>
+              <text>sale.&#8221;</text>
               </Lyrics>
             <Note>
               <eid>cmbKz3CleLJ_dAD512DrN8</eid>
@@ -1852,7 +1851,7 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <eid>t9n5ZlBmZ+O_tY5TZ/jEMfI</eid>
-              <text>‘ry</text>
+              <text>&#8216;ry</text>
               </Lyrics>
             <Note>
               <eid>MrFARHrh5UI_U30W5K0tJd</eid>
@@ -2162,7 +2161,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <eid>tBkpWtTw5MK_ouJnLj6aARI</eid>
-              <text>there’s</text>
+              <text>there&#8217;s</text>
               </Lyrics>
             <Note>
               <eid>eiAw0gj6v5P_v1Vk0qULeRI</eid>
@@ -2285,7 +2284,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <eid>zd9wtjiIUJO_VJLPAlgEfrF</eid>
-              <text>key’s</text>
+              <text>key&#8217;s</text>
               </Lyrics>
             <Note>
               <eid>3QRUC6Y88ZF_RiWj0TNIyIJ</eid>

@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <LastEID>13070</LastEID>
   <Score>
     <Division>480</Division>
@@ -10,21 +9,21 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Isham Jones</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2025-07-09</metaTag>
     <metaTag name="lyricist">Gus Kahn</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">It Had To Be You</metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
+    <metaTag name="workTitle">It Had to Be You</metaTag>
     <Part id="1">
       <Staff id="1">
         <StaffType group="pitched">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -2845,7 +2844,7 @@
             <fractions>-1/4</fractions>
             </location>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>18</root>
             <name>7</name>
             <eid>55267639164986</eid>
@@ -2878,7 +2877,7 @@
             <root>16</root>
             <name>7</name>
             <eid>55422257987642</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           </voice>
         </Measure>

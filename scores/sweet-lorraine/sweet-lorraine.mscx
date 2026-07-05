@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.50">
   <programVersion>4.5.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <Score>
     <eid>/qQDeCw0ZRE_Vhkc63YBolD</eid>
     <Division>480</Division>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Cliff Burwell</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2025-11-29</metaTag>
     <metaTag name="lyricist">Mitchell Parish</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Sweet Lorraine</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1540,7 +1539,7 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <eid>sySBInKQlQM_qg8rrL1gS</eid>
-              <offset x="0.2" y="3"/>
+              <offset x="0.2" y="3" />
               <text>ing</text>
               </Lyrics>
             <Note>
@@ -2170,7 +2169,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <eid>IWM+gVASmCM_x9366x2lj1E</eid>
-              <offset x="0.1" y="3"/>
+              <offset x="0.1" y="3" />
               <text>night</text>
               </Lyrics>
             <Note>
@@ -2749,7 +2748,7 @@
             <fractions>-1/2</fractions>
             </location>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>14</root>
             <name>7</name>
             <eid>LCL1IZ2WnrG_mw9y0epf3QB</eid>
@@ -2785,7 +2784,7 @@
             <root>16</root>
             <name>7</name>
             <eid>n6CwwMcCCtM_4hK4VzeXBKG</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           </voice>
         </Measure>

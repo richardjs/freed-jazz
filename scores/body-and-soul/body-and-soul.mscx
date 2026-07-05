@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.50">
   <programVersion>4.5.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision />
   <Score>
     <eid>YDy1SDuIq4I_z0JfpczxH1L</eid>
     <Division>480</Division>
@@ -10,20 +9,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Johnny Green</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2026-02-19</metaTag>
     <metaTag name="lyricist">Edward Heyman, Robert Sour, and Frank Eyton</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Body and Soul</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -652,7 +651,7 @@
               <tpc>6</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -1242,7 +1241,7 @@
               <tpc>6</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2566,7 +2565,7 @@
               <tpc>6</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <endTuplet />
           </voice>
         </Measure>
       <Measure>
@@ -2594,7 +2593,7 @@
             <fractions>-3/4</fractions>
             </location>
           <Harmony>
-            <leftParen/>
+            <leftParen />
             <root>8</root>
             <name>7</name>
             <eid>n2CmaHtV8yE_AM9FCnCZY6B</eid>
@@ -2614,7 +2613,7 @@
             <root>12</root>
             <name>7</name>
             <eid>i0IFWGxSqWI_7tmUY6CGBsN</eid>
-            <rightParen/>
+            <rightParen />
             </Harmony>
           </voice>
         </Measure>

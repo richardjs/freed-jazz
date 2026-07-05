@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.60">
-  <programVersion>4.6.5</programVersion>
-  <programRevision>653f38d</programRevision>
+<museScore version="4.70">
+  <programVersion>4.7.3</programVersion>
+  <programRevision>cf9860c</programRevision>
   <Score>
     <eid>xb7M6r7s0UM_DegePciAbwO</eid>
     <Division>480</Division>
@@ -10,20 +9,19 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Richard Rodgers</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2026-05-06</metaTag>
     <metaTag name="lyricist">Lorenz Hart</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Subtitle</metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="subtitle" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Dancing On The Ceiling</metaTag>
     <Part id="1">
       <Staff>
@@ -83,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1068,7 +1066,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <eid>1LzIGvug28I_ZVHLrh99bhL</eid>
-              <text>&quot;go</text>
+              <text>"go</text>
               </Lyrics>
             <Note>
               <eid>io5yQwznyuH_RYwMe+pUsw</eid>
@@ -1193,7 +1191,7 @@
             <Lyrics>
               <ticks_f>1/4</ticks_f>
               <eid>3YXS3I5eybC_L40APb4MJ5P</eid>
-              <text>fair,&quot;</text>
+              <text>fair,"</text>
               </Lyrics>
             <Note>
               <eid>DvVU+OnNcgM_28aQYdtmk8O</eid>
