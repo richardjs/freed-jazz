@@ -18,6 +18,8 @@ parser.add_argument("-w", "--write", action="store_true")
 args = parser.parse_args()
 
 for tune in os.listdir(SCORES_DIR):
+    changed = False
+
     score_dir = SCORES_DIR / tune
     mscx_path = score_dir / f"{tune}.mscx"
 
@@ -38,6 +40,7 @@ for tune in os.listdir(SCORES_DIR):
         print(f"{tune}: title '{title.text}' != '{metadata["title"]}'")
         if args.write:
             title.text = metadata["title"]
+            changed = True
 
     # TODO lint composer and lyricist
 
@@ -46,12 +49,14 @@ for tune in os.listdir(SCORES_DIR):
         print(f"{tune}: subtitle is '{subtitle.text}'")
         if args.write:
             subtitle.text = ""
+            changed = True
 
     cw = root.find("./Score/metaTag[@name='copyright']")
     if cw.text != COPYRIGHT_LINE:
         print(f"{tune}: wrong copyright line")
         if args.write:
             cw.text = COPYRIGHT_LINE
+            changed = True
 
     # Normalize major seventh symbols
     # Different versions of .mscx have this in different places
@@ -60,7 +65,9 @@ for tune in os.listdir(SCORES_DIR):
     for harmony in harmonies:
         if harmony.text in ["^", "^7", "maj7"] and harmony.text != MAJ_7_SYMBOL:
             print(f"{tune}:  major seventh needs normalization")
-            harmony.text = MAJ_7_SYMBOL
+            if args.write:
+                harmony.text = MAJ_7_SYMBOL
+                changed = True
 
-    if args.write:
+    if args.write and changed:
         tree.write(mscx_path)
