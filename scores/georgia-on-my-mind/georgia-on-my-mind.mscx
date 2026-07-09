@@ -124,7 +124,7 @@
             </TimeSig>
           <Harmony>
             <root>13</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>3UC/H4IMFHC_38HGjeBORtG</eid>
             </Harmony>
           <Chord>
@@ -677,7 +677,7 @@
         <voice>
           <Harmony>
             <root>13</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>KdIxlI7qcaD_uhXMTe8Tj5G</eid>
             </Harmony>
           <Chord>
@@ -1850,7 +1850,7 @@
         <voice>
           <Harmony>
             <root>13</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>lNQj2//mq3G_9D+mZNS7NWF</eid>
             </Harmony>
           <Chord>

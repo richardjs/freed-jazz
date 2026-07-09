@@ -203,7 +203,7 @@
         <voice>
           <Harmony>
             <root>15</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>50422916055098</eid>
             </Harmony>
           <Chord>
@@ -247,7 +247,7 @@
         <voice>
           <Harmony>
             <root>15</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>50659139256378</eid>
             </Harmony>
           <Chord>
@@ -1534,7 +1534,7 @@
         <voice>
           <Harmony>
             <root>15</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>50422916055098</eid>
             </Harmony>
           <Chord>
@@ -1578,7 +1578,7 @@
         <voice>
           <Harmony>
             <root>15</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>50659139256378</eid>
             </Harmony>
           <Chord>
@@ -2243,7 +2243,7 @@
         <voice>
           <Harmony>
             <root>14</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>53699976101946</eid>
             </Harmony>
           <Chord>
@@ -2421,7 +2421,7 @@
         <voice>
           <Harmony>
             <root>15</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>54052163420218</eid>
             </Harmony>
           <Chord>

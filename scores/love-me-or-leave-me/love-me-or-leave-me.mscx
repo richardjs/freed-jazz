@@ -500,7 +500,7 @@
         <voice>
           <Harmony>
             <root>10</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>T8vbSGo6dML_NeCJRCiThGK</eid>
             </Harmony>
           <Chord>
@@ -1210,7 +1210,7 @@
         <voice>
           <Harmony>
             <root>10</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>zxAXtax4WkK_5JkvJLjhJZN</eid>
             </Harmony>
           <Chord>
@@ -2493,7 +2493,7 @@
         <voice>
           <Harmony>
             <root>10</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>x6Vm2DyO/ZC_wxqH7bAK35H</eid>
             </Harmony>
           <Chord>

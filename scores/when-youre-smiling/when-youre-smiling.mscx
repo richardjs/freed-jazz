@@ -247,7 +247,7 @@
         <voice>
           <Harmony>
             <root>12</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>4ZgfV0N6kBC_U5L1h8WN6bE</eid>
             </Harmony>
           <Chord>
@@ -750,7 +750,7 @@
         <voice>
           <Harmony>
             <root>12</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>uA/YDNgxZ9B_DmBYamT4CBI</eid>
             </Harmony>
           <Chord>

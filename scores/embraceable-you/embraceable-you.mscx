@@ -124,7 +124,7 @@
             </TimeSig>
           <Harmony>
             <harmonyInfo>
-              <name>maj7</name>
+              <name>^</name>
               <root>15</root>
               </harmonyInfo>
             <eid>rxI9+kRts+K_1v6TLHfLdiL</eid>
@@ -471,7 +471,7 @@
         <voice>
           <Harmony>
             <harmonyInfo>
-              <name>maj7</name>
+              <name>^</name>
               <root>15</root>
               </harmonyInfo>
             <eid>lnavNws6C+H_KsGvBbb/j9F</eid>
@@ -873,7 +873,7 @@
         <voice>
           <Harmony>
             <harmonyInfo>
-              <name>maj7</name>
+              <name>^</name>
               <root>16</root>
               </harmonyInfo>
             <eid>m5TWIB2z1HG_QekOLLKwLpD</eid>
@@ -1140,7 +1140,7 @@
         <voice>
           <Harmony>
             <harmonyInfo>
-              <name>maj7</name>
+              <name>^</name>
               <root>15</root>
               </harmonyInfo>
             <eid>DE9iFoM/dzM_otr5FHKHcNP</eid>
@@ -1464,7 +1464,7 @@
         <voice>
           <Harmony>
             <harmonyInfo>
-              <name>maj7</name>
+              <name>^</name>
               <root>15</root>
               </harmonyInfo>
             <eid>DHTMMApPwmN_gdF7bfqiCMC</eid>
@@ -1574,7 +1574,7 @@
         <voice>
           <Harmony>
             <harmonyInfo>
-              <name>maj7</name>
+              <name>^</name>
               <root>14</root>
               </harmonyInfo>
             <eid>RZ/dFjGAvcI_LAjK3CC9wEG</eid>
@@ -2012,7 +2012,7 @@
         <voice>
           <Harmony>
             <harmonyInfo>
-              <name>maj7</name>
+              <name>^</name>
               <root>15</root>
               </harmonyInfo>
             <eid>3ZBI4498kq_P1I0blcG8KB</eid>

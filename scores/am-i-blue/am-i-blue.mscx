@@ -178,7 +178,7 @@
         <voice>
           <Harmony>
             <root>13</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>/4eIPatp6GJ_8EOEoiQCAXI</eid>
             </Harmony>
           <Chord>
@@ -703,7 +703,7 @@
         <voice>
           <Harmony>
             <root>13</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>jK9TVT67IK_zpVIDX5Ixs</eid>
             </Harmony>
           <Chord>
@@ -1798,7 +1798,7 @@
         <voice>
           <Harmony>
             <root>13</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>8f2J45yQFDP_+nRIvOR7wuL</eid>
             </Harmony>
           <Chord>

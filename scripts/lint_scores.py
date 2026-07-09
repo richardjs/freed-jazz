@@ -11,6 +11,7 @@ SCORES_DIR = Path("scores")
 TUNES_DIR = Path("content") / "songs"
 
 COPYRIGHT_LINE = "U.S. public domain - freedjazz.org"
+MAJ_7_SYMBOL = "^"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-w", "--write", action="store_true")
@@ -51,6 +52,15 @@ for tune in os.listdir(SCORES_DIR):
         print(f"{tune}: wrong copyright line")
         if args.write:
             cw.text = COPYRIGHT_LINE
+
+    # Normalize major seventh symbols
+    # Different versions of .mscx have this in different places
+    harmonies = list(root.findall("./Score/Staff/Measure/voice/Harmony/harmonyInfo/name"))
+    harmonies += list(root.findall("./Score/Staff/Measure/voice/Harmony/name"))
+    for harmony in harmonies:
+        if harmony.text in ["^", "^7", "maj7"] and harmony.text != MAJ_7_SYMBOL:
+            print(f"{tune}:  major seventh needs normalization")
+            harmony.text = MAJ_7_SYMBOL
 
     if args.write:
         tree.write(mscx_path)

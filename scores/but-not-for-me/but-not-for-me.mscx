@@ -301,7 +301,7 @@
         <voice>
           <Harmony>
             <root>11</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>RX4mWAfYbwB_Bh5Mt0PU+zE</eid>
             </Harmony>
           <Chord>
@@ -530,7 +530,7 @@
         <voice>
           <Harmony>
             <root>11</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>2ERuoj8mJiN_2FmrP8H+ryI</eid>
             </Harmony>
           <Chord>
@@ -615,7 +615,7 @@
         <voice>
           <Harmony>
             <root>10</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>d2d6XVCb8KE_LXom5DAUd7B</eid>
             </Harmony>
           <Chord>
@@ -721,7 +721,7 @@
         <voice>
           <Harmony>
             <root>11</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>VK+22qXjZ1K_aeqjs9KhOXN</eid>
             </Harmony>
           <Chord>
@@ -1142,7 +1142,7 @@
         <voice>
           <Harmony>
             <root>11</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>FNOjuPGIjkP_dvF78uXSrFJ</eid>
             </Harmony>
           <Chord>
@@ -1373,7 +1373,7 @@
         <voice>
           <Harmony>
             <root>11</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>6KhFwQwG/DD_5UT8R2MDGbC</eid>
             </Harmony>
           <Chord>
@@ -1461,7 +1461,7 @@
         <voice>
           <Harmony>
             <root>10</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>RrRkZSMe7vJ_xtTJQWX0wrE</eid>
             </Harmony>
           <Chord>
@@ -1571,7 +1571,7 @@
         <voice>
           <Harmony>
             <root>11</root>
-            <name>maj7</name>
+            <name>^</name>
             <eid>Msgohs1fQxN_IFB0Msh5GPM</eid>
             </Harmony>
           <Chord>
