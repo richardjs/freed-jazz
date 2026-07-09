@@ -139,19 +139,20 @@ for song in os.listdir(SCORES_DIR):
         ),
     ]
 
-    for key, key_num in KEYS.items():
-        output_paths += [
-            (
-                song_dir / f"{song}_{key}.pdf",
-                key,
-                "treble",
-            ),
-            (
-                song_dir / f"{song}_{key}_bass.pdf",
-                key,
-                "bass",
-            ),
-        ]
+    # Disable transpositions for the moment
+    # for key, key_num in KEYS.items():
+    #     output_paths += [
+    #         (
+    #             song_dir / f"{song}_{key}.pdf",
+    #             key,
+    #             "treble",
+    #         ),
+    #         (
+    #             song_dir / f"{song}_{key}_bass.pdf",
+    #             key,
+    #             "bass",
+    #         ),
+    #     ]
 
     for output_path, transpose_key, clef in output_paths:
         render_input_path = mscx_path
